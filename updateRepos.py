@@ -15,7 +15,7 @@ def parseDatetime(dt):
 if __name__ == '__main__':
     repoList = getRepoList()
     authors, repos = zip(*[i.split('/') for i in repoList])
-    
+
     authorData = {}
     for a in set(map(lambda x : x.lower(), authors)):
         authorData[a] = getAuthorData(a)
@@ -26,7 +26,7 @@ if __name__ == '__main__':
 
         if len(matchingRepos) == 0:
             print(f'Repo {a}/{r} not found!')
-            
+
         repo = matchingRepos[0]
 
         repoData.append({
@@ -45,4 +45,4 @@ if __name__ == '__main__':
     repoData = sorted(repoData, key = lambda x : parseDatetime(x['created_at']), reverse=True)
 
     with open('repos.json', 'w') as r:
-        json.dump(repoData, r)
+        json.dump(repoData, r, indent=4)
