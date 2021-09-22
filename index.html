@@ -1,6 +1,82 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<meta http-equiv="refresh" content="0; URL=https://github.com/haroon96" />
-</head>
+  <head>
+    <title>Muhammad Haroon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <div id="app">
+      <nav class="navbar has-shadow pl-5 pr-5" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="/">
+            <h1 class="is-size-4 mr-5">Muhammad Haroon</h1>
+          </a>
+      
+          <a
+            role="button"
+            class="navbar-burger"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navbar"
+            :class="{'is-active': isBurgerActive}"
+            @click="isBurgerActive = !isBurgerActive"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+
+        <div class="navbar-menu" :class="{'is-active': isBurgerActive}">
+          <div class="navbar-start">
+            <a class="navbar-item"> Publications </a>
+            <a class="navbar-item"> Experience </a>
+            <a class="navbar-item"> Curriculum vitae </a>
+            <a class="navbar-item"> Miscellaneous </a>
+          </div>
+        </div>
+      </nav>
+      <section class="section">
+        <div class="container">
+          <div class="columns is-align-items-center">
+            <div class="column is-three-quarters">
+              <p class="is-size-5 introduction">
+                Hi! My name is Muhammad Haroon.
+                I'm a PhD student in Computer Science at the <em>University of California, Davis</em> where I'm advised by <a href='https://web.cs.ucdavis.edu/~zubair/' target='_blank'>Professor Zubair Shafiq</a>.
+                My research interests involve the privacy and fairness aspects of AI in online systems.
+                <!-- Currently, I'm investigating whether the practices of online data brokers and recommendation systems are privacy-invasive or unfairly biased, and subsequently proposing solutions for mitigating them. -->
+              </p>
+              <br>
+              <p class="is-size-5">
+                Prior to joining UC Davis, I worked at the <a href='https://tpi.lums.edu.pk' target='_blank'>Technology for People Initiative</a> Lab on projects related to online privacy and media analytics.
+              </p>
+            </div>
+            <div class="column is-flex is-justify-content-center">
+              <figure class="image avatar">
+                <img src="./images/haroon.jpeg">
+              </figure>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <!-- <section class="section">
+        <h1 class="is-size-3 section-header">Updates</h1>
+      </section> -->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <script src="scripts.js"></script>
+</body>
 </html>

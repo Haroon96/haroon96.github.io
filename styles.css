@@ -1,0 +1,29 @@
+* {
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif
+}
+
+.avatar {
+    width: 192px;
+    height: 192px;
+}
+
+.avatar img {
+    border-radius: 10% 10% 10% 10%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+p.introduction::first-letter {
+    font-size: 125%;
+}
+
+p,
+.navbar-item {
+    font-weight: 300;
+}
+
+p > em,
+p > a {
+    text-decoration: underline;
+    font-style: normal;
+    font-weight: normal;
+}
