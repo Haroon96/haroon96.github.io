@@ -1,0 +1,24 @@
+{
+  "name": "haroon96.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haroon96/haroon96.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haroon96/haroon96.github.io/issues"
+  },
+  "homepage": "https://github.com/haroon96/haroon96.github.io#readme",
+  "dependencies": {
+    "grunt": "^1.4.1",
+    "grunt-bake": "^1.9.0",
+    "grunt-contrib-copy": "^1.0.0"
+  }
+}

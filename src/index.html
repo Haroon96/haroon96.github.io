@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css">
@@ -18,10 +18,10 @@
 
   <body>
     <div id="app">
-      <nav class="navbar has-shadow pl-5 pr-5" role="navigation" aria-label="main navigation">
+      <nav class="navbar pl-5 pr-5" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
           <a class="navbar-item" href="/">
-            <h1 class="is-size-4 mr-5">Muhammad Haroon</h1>
+            <h1 class="is-size-3 mr-5">Muhammad Haroon</h1>
           </a>
       
           <a
@@ -40,9 +40,9 @@
         </div>
 
         <div class="navbar-menu" :class="{'is-active': isBurgerActive}">
-          <div class="navbar-start">
-            <a class="navbar-item"> Publications </a>
-<!--             <a class="navbar-item"> Experience </a> -->
+          <div class="navbar-end">
+            <a class="navbar-item is-size-4"> publications </a>
+            <a class="navbar-item is-size-4"> cv </a>
 <!--             <a class="navbar-item"> Curriculum vitae </a> -->
 <!--             <a class="navbar-item"> Miscellaneous </a> -->
           </div>
@@ -69,12 +69,8 @@
               </figure>
             </div>
           </div>
-
         </div>
       </section>
-      <!-- <section class="section">
-        <h1 class="is-size-3 section-header">Updates</h1>
-      </section> -->
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
     <script src="scripts.js"></script>

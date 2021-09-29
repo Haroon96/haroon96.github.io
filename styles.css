@@ -1,5 +1,5 @@
 * {
-    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif
+    font-family: 'Inter';
 }
 
 .avatar {
@@ -17,7 +17,7 @@ p.introduction::first-letter {
 }
 
 p,
-.navbar-item {
+.navbar-menu .navbar-item {
     font-weight: 300;
 }
 
@@ -26,4 +26,8 @@ p > a {
     text-decoration: underline;
     font-style: normal;
     font-weight: normal;
+}
+
+a.navbar-item.is-active {
+    color: #485fc7;
 }
