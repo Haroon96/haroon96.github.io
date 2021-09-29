@@ -1,16 +1,18 @@
 module.exports = function (grunt) {
     grunt.initConfig({
       pkg: grunt.file.readJSON('package.json'),
+      clean: ['build'],
       copy: {
         main: {
           files: [{
               expand: true,
-              src: ['resources/**'],
+              src: ['images/**'],
               dest: 'build/'
             },
             {
               expand: true,
-              src: ['src/**/*.html'],
+              cwd: 'src',
+              src: ['**/*.html', '**/*.js', '**/*.css'],
               dest: 'build/'
             },
             {
@@ -27,17 +29,19 @@ module.exports = function (grunt) {
           },
           files: [{
             expand: true,
-            cwd: 'src',
-            src: ['**/*.html', '**/*.js'],
+            cwd: 'src/',
+            src: ['**/*.html'],
             dest: 'build/'
           }]
         }
       }
     });
   
+    grunt.loadNpmTasks('grunt-bake');
     grunt.loadNpmTasks('grunt-contrib-copy');
+    grunt.loadNpmTasks('grunt-contrib-clean');
   
-    grunt.registerTask('default', ['copy']);
+    grunt.registerTask('default', ['clean', 'copy', 'bake']);
   };
   
   
