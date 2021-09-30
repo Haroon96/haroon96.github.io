@@ -13,7 +13,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
-  <script> PAGE_NAME = 'about'; </script>
+  <script> PAGE_NAME = 'about';</script>
 </head>
 
 <body>
@@ -35,7 +35,7 @@
       <div id="navbar-menu" class="navbar-menu">
           <div class="navbar-end">
               <a class="navbar-item is-size-5" href="/"> About </a>
-              <a class="navbar-item is-size-5" href="/publications"> Publications </a>
+              <!-- <a class="navbar-item is-size-5" href="/publications"> Publications </a> -->
               <a class="navbar-item is-size-5" target='_blank' href="/static/Muhammad_Haroon_CV.pdf"> CV </a>
           </div>
       </div>
@@ -101,8 +101,9 @@
           </div>
         </div>
         <div class="column is-four-fifths">
-          <p class="is-size-5 introduction">
-            I'm a PhD student in Computer Science at the <strong>University of California, Davis</strong> where I'm advised by
+          <p class="is-size-5 introduction mt-1">
+            I'm a PhD student in Computer Science at the <strong>University of California, Davis</strong> where I'm
+            advised by
             <a href='https://web.cs.ucdavis.edu/~zubair/' target='_blank'>Professor Zubair Shafiq</a>.
             My research interests involve the privacy and fairness aspects of AI in online systems.
             <!-- Currently, I'm investigating whether the practices of online data brokers and recommendation systems are privacy-invasive or unfairly biased, and subsequently proposing solutions for mitigating them. -->
@@ -112,12 +113,34 @@
             Prior to joining UC Davis, I worked at the <a href='https://tpi.lums.edu.pk' target='_blank'>Technology for
               People Initiative</a> Lab on projects related to online privacy and media analytics.
           </p>
+          <div class="publications mt-6">
+            <h1 class="title">Publications</h1>
+            <div class="publications">
+                <div class="publication">
+                    <h1 class="is-size-5">
+                        <a target="_blank" href="https://arxiv.org/pdf/2109.07028.pdf"><strong>Avengers Ensemble! Improving Transferability of Authorship Obfuscation</strong></a>
+                    </h1>
+                    <h2>
+                        <span><strong>Muhammad Haroon</strong></span>
+                        <span>Muhammad Fareed Zaffar</span>
+                        <span>Padmini Srinivasan</span>
+                        <span>Zubair Shafiq</span>
+                    </h2>
+                    <h2>
+                        arXiv preprint arXiv:2109.07028, 2021
+                    </h2>
+                </div>
+            </div>
+          </div>
+          <!--(bake-end)-->
         </div>
-
       </div>
+
+    </div>
     </div>
   </section>
 
+  <!--(bake /src/includes/footer.html)-->
 </body>
 
 </html>
