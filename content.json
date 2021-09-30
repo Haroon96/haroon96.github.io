@@ -1,0 +1,10 @@
+{
+    "publications": [
+        {
+            "title": "test",
+            "authors": ["test1", "test2"],
+            "year": 2012,
+            "venue": "Foo"
+        }
+    ]
+}

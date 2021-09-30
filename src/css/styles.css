@@ -27,6 +27,12 @@ p,
     font-weight: 300;
 }
 
+@media screen and (min-width:1024px) {
+    .navbar-menu {
+        text-transform: lowercase;
+    }
+}
+
 p > em,
 p > a {
     text-decoration: underline;
@@ -34,7 +40,12 @@ p > a {
     font-weight: normal;
 }
 
-a.navbar-item.is-active {
+.navbar-menu a.navbar-item {
+    color: #aaa;
+}
+
+.navbar-menu a.navbar-item:hover,
+.navbar-menu a.navbar-item.is-active {
     color: #485fc7;
 }
 
@@ -43,6 +54,29 @@ footer.footer {
 }
 
 ul.social-list > li {
+    margin-bottom: 0.2em;
+    font-size: 0.8em;
+    text-align: right;
+}
+
+ul.social-list li > a {
     display: flex;
     align-items: center;
+    color: #444;
+}
+
+ul.social-list li a > i:first-child {
+    width: 24px;
+    font-size: 18px;
+}
+
+ul.social-list span {
+    margin-left: 0.5em;
+    font-family: monospace;
+    border-bottom: dotted 1px transparent;
+}
+
+ul.social-list span:hover {
+    border-bottom: dashed 1px #444;
+    cursor: pointer;
 }
