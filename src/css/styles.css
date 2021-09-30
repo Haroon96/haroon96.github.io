@@ -2,6 +2,12 @@
     font-family: 'Inter';
 }
 
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
 .avatar {
     width: 192px;
     height: 192px;
@@ -30,4 +36,13 @@ p > a {
 
 a.navbar-item.is-active {
     color: #485fc7;
+}
+
+footer.footer {
+    margin-top: auto;
+}
+
+ul.social-list > li {
+    display: flex;
+    align-items: center;
 }

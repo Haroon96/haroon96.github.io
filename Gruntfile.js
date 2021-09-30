@@ -1,47 +1,38 @@
-module.exports = function (grunt) {
-    grunt.initConfig({
-      pkg: grunt.file.readJSON('package.json'),
-      clean: ['build'],
-      copy: {
-        main: {
-          files: [{
-              expand: true,
-              src: ['images/**'],
-              dest: 'build/'
-            },
-            {
-              expand: true,
-              cwd: 'src',
-              src: ['**/*.html', '**/*.js', '**/*.css'],
-              dest: 'build/'
-            },
-            {
-              src: ['index.html'],
-              dest: 'build/index.html'
-            }
-          ]
-        }
-      },
-      bake: {
-        build: {
-          options: {
-            removeUndefined: false
-          },
-          files: [{
-            expand: true,
-            cwd: 'src/',
-            src: ['**/*.html'],
-            dest: 'build/'
-          }]
-        }
+module.exports = function(grunt) {
+
+  // Project configuration.
+  grunt.initConfig({
+    pkg: grunt.file.readJSON('package.json'),
+    clean: ['build'],
+    copy: {
+      build: {
+        files: [{
+          expand: true,
+          cwd: 'src',
+          src: ['img/**/*', 'css/**/*'],
+          dest: 'build/'
+        }]
       }
-    });
-  
-    grunt.loadNpmTasks('grunt-bake');
-    grunt.loadNpmTasks('grunt-contrib-copy');
-    grunt.loadNpmTasks('grunt-contrib-clean');
-  
-    grunt.registerTask('default', ['clean', 'copy', 'bake']);
-  };
-  
-  
+    },
+    bake: {
+      build: {
+        options: {
+          removeUndefined: false
+        },
+        files: [{
+          expand: true,
+          cwd: 'src',
+          src: ['**/*.html', '**/*.js'],
+          dest: 'build/'
+        }]
+      }
+    }
+  });
+
+  grunt.loadNpmTasks('grunt-bake');
+  grunt.loadNpmTasks('grunt-contrib-copy');
+  grunt.loadNpmTasks('grunt-contrib-clean');
+
+  // Default task(s).
+  grunt.registerTask('default', ['clean', 'copy', 'bake']);
+};
