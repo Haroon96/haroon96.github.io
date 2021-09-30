@@ -17,7 +17,8 @@ module.exports = function(grunt) {
     bake: {
       build: {
         options: {
-          removeUndefined: false
+          removeUndefined: false,
+          content: 'content.json'
         },
         files: [{
           expand: true,
