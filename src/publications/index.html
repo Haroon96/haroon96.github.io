@@ -12,29 +12,7 @@
   <!--(bake /src/includes/navbar.html)-->
   <section class="section">
     <div class="container">
-      <h1 class="title">Publications</h1>
-      <div class="publications">
-        <!--(bake-start _foreach="publication:publications")-->
-        <div class="publication">
-          <h1 class="is-size-5">
-            <a target="_blank" href="{{ publication.url }}"><strong>{{ publication.title }}</strong></a>
-          </h1>
-          <h2>
-            <!--(bake-start _foreach="author:publication.authors")-->
-              <!--(bake-start _if="author == 'Muhammad Haroon'")-->
-              <span><strong>{{ author }}</strong></span>
-              <!--(bake-end)-->
-              <!--(bake-start _if="author != 'Muhammad Haroon'")-->
-              <span>{{ author }}</span>
-              <!--(bake-end)-->
-            <!--(bake-end)-->
-          </h2>
-          <h2>
-            {{ publication.venue }}, {{ publication.year }}
-          </h2>
-      </div>
-        <!--(bake-end)-->
-      </div>
+      <!--(bake /src/publications/publications.html)-->
     </div>
   </section>
   <!--(bake /src/includes/footer.html)-->
