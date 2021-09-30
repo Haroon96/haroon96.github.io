@@ -1,46 +1,45 @@
 <nav class="navbar pl-5 pr-5" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
         <a class="navbar-item" href="/">
-            <h1 class="is-size-3 mr-5">Muhammad Haroon</h1>
+            <h1 class="is-size-4 mr-5 title">
+                Muhammad Haroon
+            </h1>
         </a>
 
-        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar"
-            :class="{'is-active': isBurgerActive}" @click="isBurgerActive = !isBurgerActive">
+        <a role="button" id="navbar-burger" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
         </a>
     </div>
 
-    <div class="navbar-menu" :class="{'is-active': isBurgerActive}">
+    <div id="navbar-menu" class="navbar-menu">
         <div class="navbar-end">
-            <a class="navbar-item is-size-4"> publications </a>
-            <a class="navbar-item is-size-4"> cv </a>
+            <a class="navbar-item is-size-5" href="/"> About </a>
+            <a class="navbar-item is-size-5" href="/publications"> Publications </a>
+            <a class="navbar-item is-size-5" target='_blank' href="/static/Muhammad_Haroon_CV.pdf"> CV </a>
         </div>
     </div>
 </nav>
-<!-- <script>
+<script>
     document.addEventListener('DOMContentLoaded', () => {
         // code for the burger menu
         const burger = document.getElementById('navbar-burger');
 
         burger.addEventListener('click', () => {
-            target = document.getElementById('navbar-menu');
+            const target = document.getElementById('navbar-menu');
             burger.classList.toggle('is-active');
             target.classList.toggle('is-active');
         });
 
-        const navbar = document.getElementById('navbar-menu');
-        let currentLocation = window.location.pathname;
-        for (let tag of navbar.getElementsByTagName('a')) {
-            // highlight the nav button for current page
-            if (currentLocation.includes(tag.getAttribute('aria-label'))) {
-                tag.classList.add('is-active', 'is-tab');
+        try {
+            const navbar = document.getElementById('navbar-menu');
+            for (const tag of navbar.getElementsByTagName('a')) {
+                // highlight the nav button for current page
+                if (tag.innerText.includes(PAGE_NAME)) {
+                    tag.classList.add('is-active', 'is-tab');
+                }
             }
-            // add listener for collapsing burger menu when clicked
-            tag.addEventListener('click', () => {
-                navbar.classList.remove('is-active');
-            });
-        }
+        } catch (e) { }
     });
-</script> -->
+</script>
