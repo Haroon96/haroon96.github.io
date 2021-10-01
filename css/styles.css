@@ -1,5 +1,14 @@
+:root {
+    --font-family: 'Inter';
+    --accent: #485fc7;
+}
+
 * {
-    font-family: 'Inter';
+    font-family: var(--font-family);
+}
+
+a {
+    color: var(--accent);
 }
 
 body {
@@ -31,6 +40,7 @@ p,
 
 p > em,
 p > a {
+    border-bottom: dashed 1px;
     font-style: normal;
     font-weight: normal;
 }
@@ -41,7 +51,8 @@ p > a {
 
 .navbar-menu a.navbar-item:hover,
 .navbar-menu a.navbar-item.is-active {
-    color: #485fc7;
+    color: var(--accent);
+    border-bottom-color: var(--accent);
 }
 
 footer.footer {
@@ -60,6 +71,10 @@ ul.social-list li > a {
     color: #444;
 }
 
+ul.social-list li > a:hover {
+    color: var(--accent);
+}
+
 ul.social-list li a > i:first-child {
     width: 24px;
     font-size: 18px;
@@ -68,12 +83,13 @@ ul.social-list li a > i:first-child {
 ul.social-list span {
     margin-left: 0.5em;
     font-family: monospace;
-    border-bottom: dotted 1px transparent;
+    border-bottom: dashed 1px transparent;
 }
 
 ul.social-list span:hover {
-    border-bottom: dashed 1px #444;
+    border-bottom: dashed 1px;
     cursor: pointer;
+    color: var(--accent);
 }
 
 div.publication > h2 span:not(:last-child)::after {
