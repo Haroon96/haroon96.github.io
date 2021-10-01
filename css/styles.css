@@ -31,7 +31,6 @@ p,
 
 p > em,
 p > a {
-    text-decoration: underline;
     font-style: normal;
     font-weight: normal;
 }
