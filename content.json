@@ -1,18 +1,16 @@
 {
-    "publications": [
-        {
-            "title": "Avengers Ensemble! Improving transferability of authorship obfuscation",
-            "authors": ["Muhammad Haroon", "Fareed Zaffar", "Padmini Srinivasan", "Zubair Shafiq"],
-            "year": 2021,
-            "venue": "arXiv preprint arXiv:2109.07028",
-            "url": "https://arxiv.org/pdf/2109.07028.pdf"
-        },
-        {
+    "publications": [{
             "title": "HARPO: Learning to Subvert Online Behavioral Advertising",
             "authors": ["Jiang Zhang", "Konstantinos Psounis", "Muhammad Haroon", "Zubair Shafiq"],
             "year": 2022,
             "venue": "The Network and Distributed System Security (NDSS) Symposium",
             "url": "#"
+        }, {
+            "title": "Avengers Ensemble! Improving transferability of authorship obfuscation",
+            "authors": ["Muhammad Haroon", "Fareed Zaffar", "Padmini Srinivasan", "Zubair Shafiq"],
+            "year": 2021,
+            "venue": "arXiv preprint arXiv:2109.07028",
+            "url": "https://arxiv.org/pdf/2109.07028.pdf"
         }
     ]
 }
