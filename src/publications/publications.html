@@ -3,7 +3,12 @@
     <!--(bake-start _foreach="publication:publications")-->
     <div class="publication mb-5">
         <h1 class="is-size-5">
+            <!--(bake-start _if="publication.url")-->
             <a target="_blank" href="{{ publication.url }}"><strong>{{ publication.title }}</strong></a>
+            <!--(bake-end)-->
+            <!--(bake-start _if="!publication.url")-->
+            <a href="#"><strong>{{ publication.title }}</strong></a>
+            <!--(bake-end)-->
         </h1>
         <h2>
             <!--(bake-start _foreach="author:publication.authors")-->

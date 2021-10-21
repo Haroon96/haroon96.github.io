@@ -3,8 +3,7 @@
             "title": "HARPO: Learning to Subvert Online Behavioral Advertising",
             "authors": ["Jiang Zhang", "Konstantinos Psounis", "Muhammad Haroon", "Zubair Shafiq"],
             "year": 2022,
-            "venue": "The Network and Distributed System Security (NDSS) Symposium",
-            "url": "#"
+            "venue": "The Network and Distributed System Security (NDSS) Symposium"
         }, {
             "title": "Avengers Ensemble! Improving transferability of authorship obfuscation",
             "authors": ["Muhammad Haroon", "Fareed Zaffar", "Padmini Srinivasan", "Zubair Shafiq"],
