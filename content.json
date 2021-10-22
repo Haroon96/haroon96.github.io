@@ -1,6 +1,6 @@
 {
     "publications": [{
-            "title": "HARPO: Learning to Subvert Online Behavioral Advertising",
+            "title": "HARPO: Learning to subvert online behavioral advertising",
             "authors": ["Jiang Zhang", "Konstantinos Psounis", "Muhammad Haroon", "Zubair Shafiq"],
             "year": 2022,
             "venue": "The Network and Distributed System Security (NDSS) Symposium"
