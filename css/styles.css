@@ -98,3 +98,8 @@ div.publication > h2 span:not(:last-child)::after {
 div.publication > h2 span strong {
     text-decoration: underline;
 }
+
+div.news > h1 span:first-child {
+    text-transform: uppercase;
+    font-weight: bold;
+}
