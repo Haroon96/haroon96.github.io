@@ -61,10 +61,17 @@
             Prior to joining UC Davis, I worked at the <a href='https://tpi.lums.edu.pk' target='_blank'>Technology for
               People Initiative</a> Lab on projects related to online privacy and media analytics.
           </p>
-          <div class="publications mt-6">
-            <!--(bake /src/publications/publications.html)-->
+          <h1 class="title mt-6">News</h1>
+          <!--(bake-start _foreach="n:news")-->
+          <div class="news">
+            <h1>
+              <span class="mr-5">{{ n.year }}, {{ n.month }}</span>
+              <span>{{ n.content }}</span>
+            </h1>
           </div>
           <!--(bake-end)-->
+          <h1 class="title mt-6">Publications</h1>
+          <!--(bake /src/publications/publications.html)-->
         </div>
       </div>
 
