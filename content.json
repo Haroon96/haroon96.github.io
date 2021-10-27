@@ -1,7 +1,7 @@
 {
     "publications": [
         {
-            "title": "HARPO: Learning to Subvert Online Behavioral Advertising",
+            "title": "HARPO: Learning to subvert online behavioral advertising",
             "authors": [
                 "Jiang Zhang",
                 "Konstantinos Psounis",
@@ -28,7 +28,7 @@
         {
             "content": "<em>HARPO: Learning to Subvert Online Behavioral Advertising</em> was accepted at NDSS'22.",
             "month": "Oct",
-            "year": 2021 
+            "year": 2021
         }
     ]
 }
