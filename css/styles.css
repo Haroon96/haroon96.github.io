@@ -51,7 +51,10 @@ p > a {
 .navbar-menu a.navbar-item:hover,
 .navbar-menu a.navbar-item.is-active {
     color: var(--accent);
-    border-bottom-color: var(--accent);
+}
+
+.navbar-menu a.navbar-item.is-active {
+    font-weight: bold;
 }
 
 footer.footer {

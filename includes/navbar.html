@@ -1,12 +1,13 @@
-<nav class="navbar pl-5 pr-5" role="navigation" aria-label="main navigation">
+<nav class="navbar pl-5 pr-5 has-shadow" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
         <a class="navbar-item" href="/">
-            <h1 class="is-size-4 mr-5 title">
-                Muhammad Haroon
+            <h1 class="is-size-4 mr-5">
+                <span class="has-text-weight-light">Muhammad</span> <span class="has-text-weight-semibold">Haroon</span>
             </h1>
         </a>
 
-        <a role="button" id="navbar-burger" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
+        <a role="button" id="navbar-burger" class="navbar-burger" aria-label="menu" aria-expanded="false"
+            data-target="navbar">
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
@@ -15,11 +16,12 @@
 
     <div id="navbar-menu" class="navbar-menu">
         <div class="navbar-end">
-            <a class="navbar-item is-size-5" href="/"> About </a>
+            <a class="navbar-item is-size-6" href="/"> About </a>
             <!-- <a class="navbar-item is-size-5" href="/publications"> Publications </a> -->
-            <a class="navbar-item is-size-5" target='_blank' href="/static/Muhammad_Haroon_CV.pdf"> CV </a>
+            <a class="navbar-item is-size-6" target='_blank' href="/static/Muhammad_Haroon_CV.pdf"> CV </a>
         </div>
     </div>
+
 </nav>
 <script>
     document.addEventListener('DOMContentLoaded', () => {
@@ -37,7 +39,7 @@
             for (const tag of navbar.getElementsByTagName('a')) {
                 // highlight the nav button for current page
                 if (tag.innerText.toLowerCase().includes(PAGE_NAME)) {
-                    tag.classList.add('is-active', 'is-tab');
+                    tag.classList.add('is-active');
                 }
             }
         } catch (e) { }
