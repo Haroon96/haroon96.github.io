@@ -39,7 +39,7 @@
             for (const tag of navbar.getElementsByTagName('a')) {
                 // highlight the nav button for current page
                 if (tag.innerText.toLowerCase().includes(PAGE_NAME)) {
-                    tag.classList.add('is-active', 'is-tab');
+                    tag.classList.add('is-active');
                 }
             }
         } catch (e) { }
