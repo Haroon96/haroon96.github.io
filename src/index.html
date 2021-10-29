@@ -62,14 +62,14 @@
               People Initiative</a> Lab on projects related to online privacy and media analytics.
           </p>
           <h1 class="title mt-6">News</h1>
-          <!--(bake-start _foreach="n:news")-->
-          <div class="news">
-            <h1>
-              <span class="mr-5">{{ n.year }}, {{ n.month }}</span>
-              <span>{{ n.content }}</span>
-            </h1>
-          </div>
-          <!--(bake-end)-->
+          <table class="news">
+            <!--(bake-start _foreach="n:news")-->
+            <tr>
+              <td>{{ n.year }} {{ n.month }}</td>
+              <td class="pl-5">{{ n.content }}</td>
+            </tr>
+            <!--(bake-end)-->
+            </table>
           <h1 class="title mt-6">Publications</h1>
           <!--(bake /src/publications/publications.html)-->
         </div>
