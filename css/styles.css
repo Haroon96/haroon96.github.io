@@ -99,7 +99,15 @@ div.publication > h2 span strong {
     text-decoration: underline;
 }
 
-div.news > h1 span:first-child {
-    text-transform: uppercase;
-    font-weight: bold;
+table.news em {
+    font-style: normal;
+    font-weight: lighter;
+}
+
+table.news em::before {
+    content: '“';
+}
+
+table.news em::after {
+    content: '”';
 }
