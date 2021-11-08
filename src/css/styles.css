@@ -103,7 +103,7 @@ div.publication > h2 span strong {
 }
 
 table.news tr > td {
-    vertical-align: middle;
+    vertical-align: top;
 }
 
 table.news tr > td:first-child, 
