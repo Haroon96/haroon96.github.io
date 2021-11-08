@@ -102,10 +102,6 @@ div.publication > h2 span strong {
     text-decoration: underline;
 }
 
-table.news tr > td {
-    vertical-align: middle;
-}
-
 table.news tr > td:first-child {
     color: var(--accent);
     font-weight: bold;
