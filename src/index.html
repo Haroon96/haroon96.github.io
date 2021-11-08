@@ -54,7 +54,6 @@
             advised by
             <a href='https://web.cs.ucdavis.edu/~zubair/' target='_blank'>Professor Zubair Shafiq</a>.
             My research interests involve the privacy and fairness aspects of AI in online systems.
-            <!-- Currently, I'm investigating whether the practices of online data brokers and recommendation systems are privacy-invasive or unfairly biased, and subsequently proposing solutions for mitigating them. -->
           </p>
           <br>
           <p class="is-size-5">
@@ -62,14 +61,7 @@
               People Initiative</a> Lab on projects related to online privacy and media analytics.
           </p>
           <h1 class="title mt-6">News</h1>
-          <table class="news">
-            <!--(bake-start _foreach="n:news")-->
-            <tr>
-              <td>{{ n.year }} {{ n.month }}</td>
-              <td class="pl-5">{{ n.content }}</td>
-            </tr>
-            <!--(bake-end)-->
-            </table>
+          <!--(bake /src/news.html)-->
           <h1 class="title mt-6">Publications</h1>
           <!--(bake /src/publications/publications.html)-->
         </div>
