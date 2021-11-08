@@ -106,11 +106,14 @@ table.news tr > td {
     vertical-align: middle;
 }
 
-table.news tr > td:first-child, 
-table.news tr > td:nth-child(2) {
-    font-size: 0.9em;
+table.news tr > td:first-child {
+    color: var(--accent);
     font-weight: bold;
 } 
+
+table.news tr > td:nth-child(2) {
+    color: var(--accent);
+}
 
 table.news em {
     font-style: normal;
