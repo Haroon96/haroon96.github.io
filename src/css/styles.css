@@ -35,6 +35,9 @@ p,
     .navbar-menu {
         text-transform: lowercase;
     }
+    table.news tr > td {
+        vertical-align: middle;
+    }
 }
 
 p > em,
@@ -100,10 +103,6 @@ div.publication > h2 span:not(:last-child)::after {
 
 div.publication > h2 span strong {
     text-decoration: underline;
-}
-
-table.news tr > td {
-    vertical-align: top;
 }
 
 table.news tr > td:first-child, 
