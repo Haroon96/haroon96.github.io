@@ -9,7 +9,8 @@
                 "Zubair Shafiq"
             ],
             "year": 2022,
-            "venue": "The Network and Distributed System Security (NDSS) Symposium"
+            "venue": "The Network and Distributed System Security (NDSS) Symposium",
+            "url": "https://arxiv.org/pdf/2111.05792.pdf"
         },
         {
             "title": "Avengers Ensemble! Improving transferability of authorship obfuscation",
