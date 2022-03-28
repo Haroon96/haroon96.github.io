@@ -1,6 +1,20 @@
 {
     "publications": [
         {
+            "title": "YouTube, The Great Radicalizer? Auditing and Mitigating Ideological Biases in YouTube Recommendations",
+            "authors": [
+                "Muhammad Haroon",
+                "Anshuman Chhabra", 
+                "Xin Liu", 
+                "Prasant Mohapatra", 
+                "Zubair Shafiq", 
+                "Magdalena Wojcieszak"
+            ],
+            "year": 2022,
+            "venue": "arXiv preprint",
+            "url": "https://arxiv.org/pdf/2203.10666.pdf"
+        },
+        {
             "title": "HARPO: Learning to subvert online behavioral advertising",
             "authors": [
                 "Jiang Zhang",
