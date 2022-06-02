@@ -111,15 +111,11 @@ table.news tr > td:nth-child(2) {
     color: var(--accent);
 }
 
-table.news em {
-    font-style: normal;
+table.news {
     font-weight: lighter;
 }
 
-table.news em::before {
-    content: '“';
-}
-
-table.news em::after {
-    content: '”';
+table.news em {
+    font-style: normal;
+    font-weight: normal;
 }
