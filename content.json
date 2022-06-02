@@ -41,12 +41,17 @@
     ],
     "news": [
         {
+            "content": "Attended the <em>IEEE Symposium on Security & Privacy '22</em> (Oakland) in San Francisco.",
+            "month": "May",
+            "year": 2022
+        },
+        {
             "content": "Attended the <em>ProperData Symposium</em> at UC Irvine.",
             "month": "Nov",
             "year": 2021
         },
         {
-            "content": "<em>HARPO: Learning to subvert online behavioral advertising</em> was accepted at NDSS'22.",
+            "content": "<em>“HARPO: Learning to Subvert Online Behavioral Advertising”</em> was accepted at NDSS'22.",
             "month": "Oct",
             "year": 2021
         },
