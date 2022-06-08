@@ -1,5 +1,5 @@
 :root {
-    --font-family: 'Inter';
+    --font-family: 'IBM Plex Sans';
     --accent: #485fc7;
 }
 
@@ -27,14 +27,13 @@ body {
 }
 
 p,
-.navbar-menu .navbar-item {
-    font-weight: 300;
+.navbar a {
+    /* font-weight: 300; */
+    color: #777;
 }
 
-@media screen and (min-width:1024px) {
-    .navbar-menu {
-        text-transform: lowercase;
-    }
+.navbar a {
+    margin-left: 1em;
 }
 
 p > em,
@@ -44,16 +43,20 @@ p > a {
     font-weight: normal;
 }
 
-.navbar-menu a.navbar-item {
+p {
+    font-size: 1.15rem;
+}
+
+.navbar-menu1 a.navbar-item {
     color: #aaa;
 }
 
-.navbar-menu a.navbar-item:hover,
-.navbar-menu a.navbar-item.is-active {
+.navbar-menu1 a.navbar-item:hover,
+.navbar-menu1 a.navbar-item.is-active {
     color: var(--accent);
 }
 
-.navbar-menu a.navbar-item.is-active {
+.navbar-menu1 a.navbar-item.is-active {
     font-weight: bold;
 }
 
@@ -118,4 +121,14 @@ table.news {
 table.news em {
     font-style: normal;
     font-weight: normal;
+}
+
+h1.section-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 2em;
+}
+
+h1.publication-title {
+    font-size: 1.125rem;
 }

@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="/css/styles.css">
   <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
@@ -25,42 +25,22 @@
 </head>
 
 <body>
-  <nav class="navbar pl-5 pr-5 has-shadow" role="navigation" aria-label="main navigation">
-      <div class="navbar-brand">
-          <a class="navbar-item" href="/">
+  <section class="section p-3 navbar">
+      <div class="container is-max-desktop is-size-4 is-flex is-align-items-center">
+          <div class="">
               <h1 class="is-size-4 mr-5">
                   <span class="has-text-weight-light">Muhammad</span> <span class="has-text-weight-semibold">Haroon</span>
               </h1>
-          </a>
-
-          <a role="button" id="navbar-burger" class="navbar-burger" aria-label="menu" aria-expanded="false"
-              data-target="navbar">
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-          </a>
-      </div>
-
-      <div id="navbar-menu" class="navbar-menu">
-          <div class="navbar-end">
-              <a class="navbar-item is-size-6" href="/"> About </a>
+          </div>
+          <div id="navbar-menu" class="is-size-6 ml-auto is-flex navbar-menu1">
+              <a class="is-size-6 navbar-item" href="/"> about </a>
               <!-- <a class="navbar-item is-size-5" href="/publications"> Publications </a> -->
-              <a class="navbar-item is-size-6" target='_blank' href="/static/Muhammad_Haroon_CV.pdf"> CV </a>
+              <a class="is-size-6 navbar-item" target='_blank' href="/static/Muhammad_Haroon_CV.pdf"> cv </a>
           </div>
       </div>
-
-  </nav>
+  </section>
   <script>
       document.addEventListener('DOMContentLoaded', () => {
-          // code for the burger menu
-          const burger = document.getElementById('navbar-burger');
-
-          burger.addEventListener('click', () => {
-              const target = document.getElementById('navbar-menu');
-              burger.classList.toggle('is-active');
-              target.classList.toggle('is-active');
-          });
-
           try {
               const navbar = document.getElementById('navbar-menu');
               for (const tag of navbar.getElementsByTagName('a')) {
@@ -73,7 +53,7 @@
       });
   </script>
   <section class="section">
-    <div class="container">
+    <div class="container is-max-desktop">
       <div class="columns">
         <div class="column is-flex is-align-items-center is-flex-direction-column">
           <div>
@@ -111,18 +91,18 @@
           </div>
         </div>
         <div class="column is-four-fifths">
-          <p class="is-size-5 introduction mt-1">
+          <p class="introduction mt-1">
             I'm a PhD student in Computer Science at the <strong>University of California, Davis</strong> where I'm
             advised by
             <a href='https://web.cs.ucdavis.edu/~zubair/' target='_blank'>Professor Zubair Shafiq</a>.
             My research interests involve the privacy and fairness aspects of AI in online systems.
           </p>
           <br>
-          <p class="is-size-5">
+          <p>
             Prior to joining UC Davis, I worked at the <a href='https://tpi.lums.edu.pk' target='_blank'>Technology for
               People Initiative</a> Lab on projects related to online privacy and media analytics.
           </p>
-          <h1 class="title mt-6">News</h1>
+          <h1 class="section-title mt-6">News</h1>
           <table class="news">
             <tr>
               <td>2022</td>
@@ -151,10 +131,10 @@
             </tr>
           </table>
 
-          <h1 class="title mt-6">Publications</h1>
+          <h1 class="section-title mt-6">Publications</h1>
           <div class="publications">
               <div class="publication mb-5">
-                  <h1 class="is-size-5">
+                  <h1 class="publication-title">
                       <a target="_blank" href="https://arxiv.org/pdf/2203.10666.pdf"><strong>YouTube, The Great Radicalizer? Auditing and Mitigating Ideological Biases in YouTube Recommendations</strong></a>
                   </h1>
                   <h2>
@@ -170,7 +150,7 @@
                   </h2>
               </div>
               <div class="publication mb-5">
-                  <h1 class="is-size-5">
+                  <h1 class="publication-title">
                       <a target="_blank" href="https://arxiv.org/pdf/2111.05792.pdf"><strong>HARPO: Learning to Subvert Online Behavioral Advertising</strong></a>
                   </h1>
                   <h2>
@@ -184,7 +164,7 @@
                   </h2>
               </div>
               <div class="publication mb-5">
-                  <h1 class="is-size-5">
+                  <h1 class="publication-title">
                       <a target="_blank" href="https://arxiv.org/pdf/2109.07028.pdf"><strong>Avengers Ensemble! Improving Transferability of Authorship Obfuscation</strong></a>
                   </h1>
                   <h2>
