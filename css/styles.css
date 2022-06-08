@@ -17,13 +17,12 @@ body {
     flex-direction: column;
 }
 
-.avatar {
-    width: 192px;
-    height: 192px;
-}
-
 .avatar img {
     border-radius: 10% 10% 10% 10%;
+}
+
+.avatar {
+    max-width: 192px;
 }
 
 p,
@@ -78,6 +77,7 @@ ul.social-list li > a {
     display: flex;
     align-items: center;
     color: #444;
+    white-space: wrap;
 }
 
 ul.social-list li > a:hover {
