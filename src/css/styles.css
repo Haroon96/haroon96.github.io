@@ -47,6 +47,10 @@ p {
     font-size: 1.15rem;
 }
 
+.navbar-menu1 {
+    margin-left: auto;
+}
+
 .navbar-menu1 a.navbar-item {
     color: #aaa;
 }
@@ -131,4 +135,18 @@ h1.section-title {
 
 h1.publication-title {
     font-size: 1.125rem;
+}
+
+@media screen and (max-width:769px) {
+    .navbar a {
+        margin-left: 0;
+    }
+
+    .navbar-menu1 {
+        margin-left: 0;
+    }
+
+    .navbar .container {
+        flex-direction: column;
+    }
 }
