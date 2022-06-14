@@ -41,6 +41,11 @@
     ],
     "news": [
         {
+            "content": "Attended the <em>International AAAI Conference on Web and Social Media '22</em> (ICWSM) in Atlanta.",
+            "month": "June",
+            "year": 2022
+        },
+        {
             "content": "Attended the <em>IEEE Symposium on Security & Privacy '22</em> (Oakland) in San Francisco.",
             "month": "May",
             "year": 2022
