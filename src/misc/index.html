@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Miscellaneous | Muhammad Haroon</title>
+  <link rel="stylesheet" href="https://cdn.iconmonstr.com/1.3.0/css/iconmonstr-iconic-font.min.css">
+  <!--(bake /src/includes/head.html)-->
+  <script> PAGE_NAME = 'misc';</script>
+</head>
+
+<body>
+  <!--(bake /src/includes/navbar.html)-->
+  <section class="section">
+    <div class="container is-max-desktop">
+
+      <h1 class="section-title mt-6">Photos</h1>
+      <p>I like taking photos of the scenic places that I've visited. You can find some of them here.</p>
+
+
+
+      <!--(bake-start _foreach="album:albums")-->
+      <h1 class="subtitle mt-6 is-flex">
+        {{ album.name }} ({{ album.year }})
+      </h1>
+      <div class="album is-flex is-flex-wrap-wrap is-align-items-start">      
+
+        <!--(bake-start _foreach="photo:album.photos")-->
+        <figure class="image is-128x128 mr-1">
+          <img src="/misc/albums/{{ album.dir }}/{{ photo.thumbnail }}" class="js-modal-trigger" data-target="image-modal" data-src="/misc/albums/{{ album.dir }}/{{ photo.photo }}">
+        </figure>
+        <!--(bake-end)-->
+
+      </div>
+      <!--(bake-end)-->
+
+      <div id="image-modal" class="modal">
+        <div class="modal-background"></div>
+        <div class="modal-content">
+          <p>
+            <img id="modal-img">
+          </p>
+        </div>
+        <button class="modal-close is-large" aria-label="close"></button>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!--(bake /src/includes/footer.html)-->
+</body>
+  <script>
+
+    document.addEventListener('DOMContentLoaded', () => {
+      // Functions to open and close a modal
+      function openModal($el, src) {
+        document.getElementById("modal-img").src = src;
+        $el.classList.add('is-active');
+      }
+
+      function closeModal($el) {
+        document.getElementById("modal-img").src = null;
+        $el.classList.remove('is-active');
+      }
+
+      function closeAllModals() {
+        (document.querySelectorAll('.modal') || []).forEach(($modal) => {
+          closeModal($modal);
+        });
+      }
+
+      // Add a click event on buttons to open a specific modal
+      (document.querySelectorAll('.js-modal-trigger') || []).forEach(($trigger) => {
+        const modal = $trigger.dataset.target;
+        const $target = document.getElementById(modal);
+
+        $trigger.addEventListener('click', () => {
+          openModal($target, $trigger.dataset.src);
+        });
+      });
+
+      // Add a click event on various child elements to close the parent modal
+      (document.querySelectorAll('.modal-background, .modal-close, .modal-card-head .delete, .modal-card-foot .button') || []).forEach(($close) => {
+        const $target = $close.closest('.modal');
+
+        $close.addEventListener('click', () => {
+          closeModal($target);
+        });
+      });
+
+      // Add a keyboard event to close all modals
+      document.addEventListener('keydown', (event) => {
+        const e = event || window.event;
+
+        if (e.keyCode === 27) { // Escape key
+          closeAllModals();
+        }
+      });
+    });
+
+  </script>
+</html>

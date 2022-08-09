@@ -4,10 +4,10 @@
             "title": "YouTube, The Great Radicalizer? Auditing and Mitigating Ideological Biases in YouTube Recommendations",
             "authors": [
                 "Muhammad Haroon",
-                "Anshuman Chhabra", 
-                "Xin Liu", 
-                "Prasant Mohapatra", 
-                "Zubair Shafiq", 
+                "Anshuman Chhabra",
+                "Xin Liu",
+                "Prasant Mohapatra",
+                "Zubair Shafiq",
                 "Magdalena Wojcieszak"
             ],
             "year": 2022,
@@ -66,7 +66,7 @@
             "year": 2021
         },
         {
-            "content": "<em>“HARPO: Learning to Subvert Online Behavioral Advertising”</em> was accepted at NDSS'22.",
+            "content": "<em>\u201cHARPO: Learning to Subvert Online Behavioral Advertising\u201d</em> was accepted at NDSS'22.",
             "month": "Oct",
             "year": 2021
         },
@@ -79,6 +79,23 @@
             "content": "Left TPI Lab.",
             "month": "Feb",
             "year": 2021
+        }
+    ],
+    "albums": [
+        {
+            "name": "Sample",
+            "year": 2022,
+            "photos": [
+                {
+                    "thumbnail": "1-thumb.jpg",
+                    "photo": "1.jpg"
+                },
+                {
+                    "thumbnail": "2-thumb.jpg",
+                    "photo": "2.jpg"
+                }
+            ],
+            "dir": "sample"
         }
     ]
 }
