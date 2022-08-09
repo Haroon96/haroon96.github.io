@@ -122,8 +122,7 @@ table.news {
     font-weight: lighter;
 }
 
-table.news em {
-    font-style: normal;
+table.news em {font-style: normal;
     font-weight: normal;
 }
 
@@ -135,6 +134,10 @@ h1.section-title {
 
 h1.publication-title {
     font-size: 1.125rem;
+}
+
+.color-accent {
+    color: var(--accent) !important;
 }
 
 @media screen and (max-width:769px) {
@@ -149,4 +152,17 @@ h1.publication-title {
     .navbar .container {
         flex-direction: column;
     }
+}
+
+.album img {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.album img:hover {
+    opacity: 1;
+}
+
+#image-modal .modal-content {
+    width: 80%;
 }
