@@ -67,6 +67,10 @@ footer.footer {
     margin-top: auto;
 }
 
+ul.social-list {
+    width: 90%;
+}
+
 ul.social-list > li {
     margin-bottom: 0.2em;
     font-size: 0.8em;
@@ -77,27 +81,13 @@ ul.social-list li > a {
     display: flex;
     align-items: center;
     color: #444;
-    white-space: wrap;
 }
 
-ul.social-list li > a:hover {
-    color: var(--accent);
-}
-
-ul.social-list li a > i:first-child {
-    width: 24px;
+ul.social-list li a > i {
     font-size: 18px;
 }
 
-ul.social-list span {
-    margin-left: 0.5em;
-    font-family: monospace;
-    border-bottom: dashed 1px transparent;
-}
-
-ul.social-list span:hover {
-    border-bottom: dashed 1px;
-    cursor: pointer;
+ul.social-list li > a:hover {
     color: var(--accent);
 }
 
