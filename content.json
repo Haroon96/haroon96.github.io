@@ -41,7 +41,12 @@
     ],
     "news": [
         {
-            "content": "Presented at the <em>Politics and Computational Social Science</em> (PaCSS) conference at Harvard University. ",
+            "content": "My research was featured in the <a target='_blank' href='https://cs.ucdavis.edu/news/do-youtube-recommendations-foster-political-radicalization'>UC Davis College of Engineering News</a>.",
+            "month": "August",
+            "year": 2022
+        },
+        {
+            "content": "Presented at the <em>Politics and Computational Social Science</em> (PaCSS) conference at Harvard University.",
             "month": "June",
             "year": 2022
         },
