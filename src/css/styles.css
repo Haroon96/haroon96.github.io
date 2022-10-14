@@ -1,5 +1,6 @@
 :root {
     --font-family: 'IBM Plex Sans';
+    --font-family-mono: 'Inconsolata';
     --accent: #485fc7;
 }
 
@@ -99,18 +100,15 @@ div.publication > h2 span strong {
     text-decoration: underline;
 }
 
-table.news tr > td:first-child {
-    color: var(--accent);
-    font-weight: bold;
-} 
-
-table.news tr > td:nth-child(2) {
-    color: var(--accent);
-}
-
 table.news {
     font-weight: lighter;
+    table-layout: fixed;
 }
+
+table.news tr > td:first-child {
+    color: var(--accent);
+    font-family: var(--font-family-mono);
+} 
 
 table.news em {font-style: normal;
     font-weight: normal;

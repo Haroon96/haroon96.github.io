@@ -41,23 +41,23 @@
     ],
     "news": [
         {
-            "content": "My research was featured in the <a target='_blank' href='https://cs.ucdavis.edu/news/do-youtube-recommendations-foster-political-radicalization'>UC Davis College of Engineering News</a>.",
-            "month": "August",
+            "content": "My research was featured in the <a target='_blank' href='https://cs.ucdavis.edu/news/do-youtube-recommendations-foster-political-radicalization'><em>UC Davis College of Engineering News</em></a>.",
+            "month": "Aug",
             "year": 2022
         },
         {
             "content": "Presented at the <em>Politics and Computational Social Science</em> (PaCSS) conference at Harvard University.",
-            "month": "June",
+            "month": "Jun",
             "year": 2022
         },
         {
             "content": "Participated in the <em>Summer Institute in Computational Social Science</em> (SICSS) at UPenn.",
-            "month": "June",
+            "month": "Jun",
             "year": 2022
         },
         {
             "content": "Attended the <em>International AAAI Conference on Web and Social Media '22</em> (ICWSM) in Atlanta.",
-            "month": "June",
+            "month": "Jun",
             "year": 2022
         },
         {

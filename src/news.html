@@ -1,18 +1,14 @@
 <table class="news">
   <!--(bake-start _foreach="n:news")-->
+  <!--(bake-start _if="n@index == 0 || news[n@index]['year'] != news[n@index - 1]['year']")-->
   <tr>
-    <!--(bake-start _if="!(n@index == 0 || news[n@index]['year'] != news[n@index - 1]['year'])")-->
-    <td>&nbsp;</td>
-    <!--(bake-end)-->
-    <!--(bake-start _if="n@index == 0 || news[n@index]['year'] != news[n@index - 1]['year']")-->
-    <td class="mt-3">{{ n.year }}</td>
-    <!--(bake-end)-->
-    <!--(bake-start _if="n@index == 0 || news[n@index]['month'] != news[n@index - 1]['month']")-->
-    <td class="pl-1">{{ n.month }}</td>
-    <!--(bake-end)-->
-    <!--(bake-start _if="n@index > 0 && news[n@index]['month'] == news[n@index - 1]['month']")-->
-    <td class="pl-1">&nbsp;</td>
-    <!--(bake-end)-->
+    <td colspan="2" class="pt-2">
+      <strong>{{ n.year }}</strong>
+    </td>
+  </tr>
+  <!--(bake-end)-->
+  <tr>
+    <td class="pl-4">{{ n.month }}</td>
     <td class="pl-3">{{ n.content }}</td>
   </tr>
   <!--(bake-end)-->
