@@ -105,9 +105,10 @@ table.news {
     table-layout: fixed;
 }
 
-table.news tr > td:first-child {
-    color: var(--accent);
+table.news tr > td:first-child,
+table.news tr > td:nth-child(2) {
     font-family: var(--font-family-mono);
+    white-space: nowrap;
 } 
 
 table.news em {font-style: normal;
