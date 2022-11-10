@@ -78,18 +78,12 @@ ul.social-list > li {
     text-align: right;
 }
 
-ul.social-list li > a {
-    display: flex;
-    align-items: center;
-    color: #444;
+ul.social-list svg {
+    fill: #aaa;
 }
 
-ul.social-list li a > i {
-    font-size: 18px;
-}
-
-ul.social-list li > a:hover {
-    color: var(--accent);
+ul.social-list svg:hover {
+    fill: var(--accent);
 }
 
 div.publication > h2 span:not(:last-child)::after {
