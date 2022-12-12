@@ -1,9 +1,20 @@
-<table class="news">
-  <!--(bake-start _foreach="n:news")-->
-  <tr>
-    <td>{{ n.year }}</td>
-    <td>&nbsp;{{ n.month }}</td>
-    <td class="pl-5">{{ n.content }}</td>
-  </tr>
-  <!--(bake-end)-->
-</table>
+<div class="news-container overflow">
+  <table class="news">
+    <!--(bake-start _foreach="n:news")-->
+    <tr>
+      <td>{{ n.year }}</td>
+      <td>&nbsp;{{ n.month }}</td>
+      <td class="pl-5">{{ n.content }}</td>
+    </tr>
+    <!--(bake-end)-->
+  </table>
+</div>
+<div class="news-container-see-more has-text-centered">
+  <a href='#' onclick="javascript:see_more_news(event)">[see more]</a>
+</div>
+<script>
+  function see_more_news(e) {
+    e.target.remove();
+    document.querySelector('.news-container').classList.toggle('overflow');
+  }
+</script>
