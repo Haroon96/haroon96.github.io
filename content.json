@@ -41,6 +41,26 @@
     ],
     "news": [
         {
+            "content": "We launched <a target='_blank' href='https://nothingtohide.online'><em>Nothing to Hide? A Data Privacy Podcast</em></a>.",
+            "month": "Dec",
+            "year": 2022
+        },
+        {
+            "content": "Attended the second annual <em>ProperData Symposium</em> at UC Irvine.",
+            "month": "Dec",
+            "year": 2022
+        },
+        {
+            "content": "Attended the <em>UC Noyce Initiative Symposium '22</em> at UC Santa Barbara.",
+            "month": "Nov",
+            "year": 2022
+        },
+        {
+            "content": "Presented my research at the <em>UCD Noyce Workshop</em>.",
+            "month": "Oct",
+            "year": 2022
+        },
+        {
             "content": "My research was featured in the <a target='_blank' href='https://cs.ucdavis.edu/news/do-youtube-recommendations-foster-political-radicalization'><em>UC Davis College of Engineering News</em></a>.",
             "month": "Aug",
             "year": 2022
