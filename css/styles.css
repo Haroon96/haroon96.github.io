@@ -94,13 +94,19 @@ div.publication > h2 span strong {
     text-decoration: underline;
 }
 
+div.news-container.overflow {
+    max-height: 100px;
+    overflow: hidden;
+}
+
 table.news {
     font-weight: lighter;
     table-layout: fixed;
 }
 
 table.news tr > td:first-child,
-table.news tr > td:nth-child(2) {
+table.news tr > td:nth-child(2),
+div.news-container-see-more a {
     font-family: var(--font-family-mono);
     white-space: nowrap;
 } 
