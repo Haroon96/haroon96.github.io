@@ -1,6 +1,5 @@
 {
-    "publications": [
-        {
+    "publications": [{
             "title": "YouTube, The Great Radicalizer? Auditing and Mitigating Ideological Biases in YouTube Recommendations",
             "authors": [
                 "Muhammad Haroon",
@@ -12,7 +11,13 @@
             ],
             "year": 2022,
             "venue": "arXiv preprint",
-            "url": "https://arxiv.org/pdf/2203.10666.pdf"
+            "urls": [{
+                "name": "paper",
+                "url": "https://arxiv.org/pdf/2203.10666.pdf"
+            }, {
+                "name": "website",
+                "url": "https://youtubeaudit.com"
+            }]
         },
         {
             "title": "HARPO: Learning to Subvert Online Behavioral Advertising",
@@ -24,7 +29,13 @@
             ],
             "year": 2022,
             "venue": "The Network and Distributed System Security Symposium (<strong>NDSS</strong>)",
-            "url": "https://arxiv.org/pdf/2111.05792.pdf"
+            "urls": [{
+                "name": "paper",
+                "url": "https://www.ndss-symposium.org/wp-content/uploads/2022-62-paper.pdf"
+            }, {
+                "name": "code",
+                "url": "https://github.com/bitzj2015/Harpo-Artifacts"
+            }]
         },
         {
             "title": "Avengers Ensemble! Improving Transferability of Authorship Obfuscation",
@@ -36,11 +47,17 @@
             ],
             "year": 2021,
             "venue": "arXiv preprint",
-            "url": "https://arxiv.org/pdf/2109.07028.pdf"
+            "urls": [{
+                "name": "paper",
+                "url": "https://arxiv.org/pdf/2109.07028.pdf"
+            }, {
+                "name": "code",
+                "url": "https://github.com/Haroon96/Avengers-Ensemble"
+            }]
+
         }
     ],
-    "news": [
-        {
+    "news": [{
             "content": "We launched <a target='_blank' href='https://nothingtohide.online'><em>Nothing to Hide? A Data Privacy Podcast</em></a>.",
             "month": "Dec",
             "year": 2022
@@ -106,21 +123,38 @@
             "year": 2021
         }
     ],
-    "albums": [
-        {
-            "name": "Sample",
-            "year": 2022,
-            "photos": [
-                {
-                    "thumbnail": "1-thumb.jpg",
-                    "photo": "1.jpg"
-                },
-                {
-                    "thumbnail": "2-thumb.jpg",
-                    "photo": "2.jpg"
-                }
-            ],
-            "dir": "sample"
-        }
-    ]
+    "albums": [{
+        "name": "Sample",
+        "year": 2022,
+        "photos": [{
+                "thumbnail": "1-thumb.jpg",
+                "photo": "1.jpg"
+            },
+            {
+                "thumbnail": "2-thumb.jpg",
+                "photo": "2.jpg"
+            }
+        ],
+        "dir": "sample"
+    }],
+    "talks": [{
+        "title": "YouTube, The Great Radicalizer?",
+        "venue": "Politics and Computational Social Science Conference (PaCSS), Harvard University<br>Summer Institute in Computation Social Science (SICSS), University of Pennsylvania",
+        "year": 2022,
+        "urls": [{
+            "name": "slides",
+            "url": "https://docs.google.com/presentation/d/1of6r8oz2phJSNZnI2hM45O5mUneO7SvD/edit?usp=sharing&ouid=104907066517892201282&rtpof=true&sd=true"
+        }]
+    }],
+    "podcasts": [{
+        "title": "How Social Media Algorithms Can Foster Political Radicalization",
+        "host": "The Backdrop - A UC Davis Podcast",
+        "url": "https://www.ucdavis.edu/news/podcasts-and-shows/the-backdrop/episode/muhammad-haroon-social-media-algorithms-political-radicalization",
+        "year": 2022
+    }, {
+        "title": "Offensive Privacy to Counter AdTech Surveillance",
+        "host": "Nothing to Hide - A Data Privacy Podcast",
+        "url": "https://open.spotify.com/episode/0UdUuze2SQJBW1aQVMlv0E?go=1&sp_cid=5b3249ab2a08a42383b2ed565e66b03c&utm_source=embed_player_p&utm_medium=desktop&nd=1",
+        "year": 2022
+    }]
 }

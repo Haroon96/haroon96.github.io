@@ -86,10 +86,14 @@ ul.social-list svg:hover {
     fill: var(--accent);
 }
 
+div.talk > h2 span:not(:last-child)::after,
+div.podcast > h2 span:not(:last-child)::after,
 div.publication > h2 span:not(:last-child)::after {
     content: ','
 }
 
+div.talk > h2 span strong,
+div.podcast > h2 span strong,
 div.publication > h2 span strong {
     text-decoration: underline;
 }
@@ -121,6 +125,8 @@ h1.section-title {
     line-height: 2em;
 }
 
+h1.talk-title,
+h1.podcast-title,
 h1.publication-title {
     font-size: 1.125rem;
 }

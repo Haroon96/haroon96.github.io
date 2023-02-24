@@ -2,12 +2,7 @@
     <!--(bake-start _foreach="publication:publications")-->
     <div class="publication mb-5">
         <h1 class="publication-title">
-            <!--(bake-start _if="publication.url")-->
-            <a target="_blank" href="{{ publication.url }}"><strong>{{ publication.title }}</strong></a>
-            <!--(bake-end)-->
-            <!--(bake-start _if="!publication.url")-->
             <a href="#"><strong>{{ publication.title }}</strong></a>
-            <!--(bake-end)-->
         </h1>
         <h2>
             <!--(bake-start _foreach="author:publication.authors")-->
@@ -21,6 +16,11 @@
         </h2>
         <h2>
             {{ publication.venue }}, {{ publication.year }}
+        </h2>
+        <h2>
+            <!--(bake-start _foreach="url:publication.urls")-->
+            <a href="{{ url.url }}" target="_blank">[{{ url.name }}]</a>
+            <!--(bake-end)-->
         </h2>
     </div>
     <!--(bake-end)-->

@@ -1,0 +1,34 @@
+<div class="talks">
+    <!--(bake-start _foreach="talk:talks")-->
+    <div class="talk mb-5">
+        <h1 class="talk-title">
+            <a href="#"><strong>{{ talk.title }}</strong></a>
+        </h1>
+        <h2>
+            {{ talk.venue }}, {{ talk.year }}
+        </h2>
+        <h2>
+            <!--(bake-start _foreach="url:talk.urls")-->
+            <a href="{{ url.url }}" target="_blank">[{{ url.name }}]</a>
+            <!--(bake-end)-->
+        </h2>
+    </div>
+    <!--(bake-end)-->
+</div>
+
+
+<div class="podcasts">
+    <!--(bake-start _foreach="podcast:podcasts")-->
+    <div class="podcast mb-5">
+        <h1 class="podcast-title">
+            <a href="#"><strong>{{ podcast.title }}</strong></a>
+        </h1>
+        <h2>
+            {{ podcast.host }}, {{ podcast.year }}
+        </h2>
+        <h2>
+            <a href="{{ podcast.url }}" target="_blank">[listen]</a>
+        </h2>
+    </div>
+    <!--(bake-end)-->
+</div>
