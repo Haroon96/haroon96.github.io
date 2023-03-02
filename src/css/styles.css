@@ -98,6 +98,32 @@ div.publication > h2 span strong {
     text-decoration: underline;
 }
 
+
+div.talk > h2.external-links a,
+div.podcast > h2.external-links a,
+div.publication > h2.external-links a {
+    font-family: var(--font-family-mono);
+}
+
+div.talk > h2.external-links a::before,
+div.podcast > h2.external-links a::before,
+div.publication > h2.external-links a::before {
+    content: '[';
+}
+
+div.talk > h2.external-links a::after,
+div.podcast > h2.external-links a::after,
+div.publication > h2.external-links a::after {
+    content: ']';
+}
+
+div.talk > h2.external-links a:hover,
+div.podcast > h2.external-links a:hover,
+div.publication > h2.external-links a:hover {
+    text-decoration: underline;
+    color: #444;
+}
+
 div.news-container.overflow {
     max-height: 100px;
     overflow: hidden;
@@ -115,7 +141,8 @@ div.news-container-see-more a {
     white-space: nowrap;
 } 
 
-table.news em {font-style: normal;
+table.news em {
+    font-style: normal;
     font-weight: normal;
 }
 
@@ -125,10 +152,18 @@ h1.section-title {
     line-height: 2em;
 }
 
-h1.talk-title,
-h1.podcast-title,
-h1.publication-title {
+h1.talk-title strong,
+h1.podcast-title strong,
+h1.publication-title strong {
     font-size: 1.125rem;
+    color: var(--accent);
+
+}
+
+h1.talk-title:hover strong,
+h1.podcast-title:hover strong,
+h1.publication-title:hover strong {
+    color: #444;
 }
 
 .color-accent {
