@@ -27,7 +27,9 @@
             {{ podcast.host }}, {{ podcast.year }}
         </h2>
         <h2>
-            <a href="{{ podcast.url }}" target="_blank">[listen]</a>
+            <!--(bake-start _foreach="url:podcast.urls")-->
+            <a href="{{ url.url }}" target="_blank">[{{ url.name }}]</a>
+            <!--(bake-end)-->
         </h2>
     </div>
     <!--(bake-end)-->
