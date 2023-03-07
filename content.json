@@ -68,7 +68,7 @@
     ],
     "news": [
         {
-            "content": "Awarded the GGCS Research Fellowship for Spring 2023.",
+            "content": "Awarded the <em>GGCS Research Fellowship</em> for Spring 2023.",
             "month": "Mar",
             "year": 2023
         },
@@ -93,7 +93,7 @@
             "year": 2022
         },
         {
-            "content": "My research was featured in the <a target='_blank' href='https://cs.ucdavis.edu/news/do-youtube-recommendations-foster-political-radicalization'><em>UC Davis College of Engineering News</em></a>.",
+            "content": "My research was featured in the <em>UC Davis College of Engineering News</em>. Read about it <a target='_blank' href='https://cs.ucdavis.edu/news/do-youtube-recommendations-foster-political-radicalization'><em>here</em></a>.",
             "month": "Aug",
             "year": 2022
         },
@@ -103,7 +103,7 @@
             "year": 2022
         },
         {
-            "content": "Participated in and presented at the <em>Summer Institute in Computational Social Science</em> (SICSS) at UPenn.",
+            "content": "Participated in and presented at the <em>Summer Institute in Computational Social Science</em> (SICSS) at the University of Pennsylvania.",
             "month": "Jun",
             "year": 2022
         },
