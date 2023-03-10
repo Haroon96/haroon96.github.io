@@ -68,6 +68,11 @@
     ],
     "news": [
         {
+            "content": "Awarded the <em>GGCS Research Fellowship</em> for Spring 2023.",
+            "month": "Mar",
+            "year": 2023
+        },
+        {
             "content": "We launched <a target='_blank' href='https://nothingtohide.online'><em>Nothing to Hide? A Data Privacy Podcast</em></a>.",
             "month": "Dec",
             "year": 2022
@@ -83,12 +88,12 @@
             "year": 2022
         },
         {
-            "content": "Presented my research at the <em>UCD Noyce Workshop</em>.",
+            "content": "Presented my research at the <em>UC Davis Noyce Workshop</em>.",
             "month": "Oct",
             "year": 2022
         },
         {
-            "content": "My research was featured in the <a target='_blank' href='https://cs.ucdavis.edu/news/do-youtube-recommendations-foster-political-radicalization'><em>UC Davis College of Engineering News</em></a>.",
+            "content": "My research was featured in the <em>UC Davis College of Engineering News</em>. Read about it <a target='_blank' href='https://cs.ucdavis.edu/news/do-youtube-recommendations-foster-political-radicalization'><em>here</em></a>.",
             "month": "Aug",
             "year": 2022
         },
@@ -98,7 +103,7 @@
             "year": 2022
         },
         {
-            "content": "Participated in the <em>Summer Institute in Computational Social Science</em> (SICSS) at UPenn.",
+            "content": "Participated in and presented at the <em>Summer Institute in Computational Social Science</em> (SICSS) at the University of Pennsylvania.",
             "month": "Jun",
             "year": 2022
         },
@@ -118,7 +123,7 @@
             "year": 2021
         },
         {
-            "content": "<em>\u201cHARPO: Learning to Subvert Online Behavioral Advertising\u201d</em> was accepted at NDSS'22.",
+            "content": "<em>HARPO: Learning to Subvert Online Behavioral Advertising</em> was accepted at NDSS'22.",
             "month": "Oct",
             "year": 2021
         },
