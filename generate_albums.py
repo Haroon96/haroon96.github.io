@@ -1,69 +1,66 @@
 from PIL import Image
-from random import choice
 import os
 import json
-from natsort import natsorted
 
-ALBUMS_DIR = os.path.join('src', 'misc', 'albums')
+PHOTOS_DIR = os.path.join('src', 'misc', 'photos')
 
 def build_content_json():
 
+    # read content.json
     with open('content.json') as f:
         content = json.load(f)
+    content['photos'] = []
 
-    for ind, album in enumerate(content['albums']):
+    for photo in sorted(os.listdir(PHOTOS_DIR), reverse=True):
+
+        # check if already in list or a thumbnail
+        if '-thumb' in photo:
+            continue
+
+        # get filename
+        root, ext = os.path.splitext(photo)
         
-        dir_name = album['name'].replace(' ', '-').lower()
-        content['albums'][ind]['dir'] = dir_name
-        photos = natsorted(os.listdir(os.path.join(ALBUMS_DIR, dir_name)))
-        content['albums'][ind]['photos'] = []
-        for photo in photos:
+        # append to photo list
+        content['photos'].append({ 'thumbnail': f'{root}-thumb{ext}', 'photo': photo })
 
-            if '-thumb' in photo:
-                continue
-
-            root, ext = os.path.splitext(photo)
-            content['albums'][ind]['photos'].append({ 'thumbnail': f'{root}-thumb{ext}', 'photo': photo })
-
+    # rewrite content.json
     with open('content.json', 'w') as f:
         json.dump(content, f, indent=4)
         
 
 def generate_thumbnails():
-    for album in os.listdir(ALBUMS_DIR):
-        album_dir = os.path.join(ALBUMS_DIR, album)
 
-        for photo in os.listdir(album_dir):
+    for photo in os.listdir(PHOTOS_DIR):
 
-            if '-thumb' in photo:
-                continue
+        if '-thumb' in photo:
+            continue
 
-            root, ext = os.path.splitext(photo)
+        root, ext = os.path.splitext(photo)
 
-            photo_path = os.path.join(album_dir, photo)
-            thumb_path = os.path.join(album_dir, f'{root}-thumb{ext}')
+        photo_path = os.path.join(PHOTOS_DIR, photo)
+        thumb_path = os.path.join(PHOTOS_DIR, f'{root}-thumb{ext}')
 
-            if os.path.exists(thumb_path):
-                continue
+        if os.path.exists(thumb_path):
+            continue
 
-            # write thumbnail
-            img = Image.open(photo_path)
-            
-            # crop to square ratio
-            if img.width > img.height:
-                margin = (img.width - img.height) // 2
-                print((margin, 0, margin, img.height))
-                img = img.crop((margin, 0, margin + img.height, img.height))
-            else:
-                margin = (img.height - img.width) // 2
-                print((0, margin, img.width, margin))
-                img = img.crop((0, margin, img.width, margin + img.width))
-            
-            img.thumbnail((128, 128))
-            img.save(thumb_path)
+        # write thumbnail
+        img = Image.open(photo_path)
+        
+        # crop to square ratio
+        if img.width > img.height:
+            margin = (img.width - img.height) // 2
+            print((margin, 0, margin, img.height))
+            img = img.crop((margin, 0, margin + img.height, img.height))
+        else:
+            margin = (img.height - img.width) // 2
+            print((0, margin, img.width, margin))
+            img = img.crop((0, margin, img.width, margin + img.width))
+        
+        img.thumbnail((128, 128))
+        img.save(thumb_path)
 
 def main():
-    build_content_json();
+    build_content_json()
     generate_thumbnails()
 
 

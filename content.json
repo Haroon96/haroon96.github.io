@@ -138,23 +138,6 @@
             "year": 2021
         }
     ],
-    "albums": [
-        {
-            "name": "Sample",
-            "year": 2022,
-            "photos": [
-                {
-                    "thumbnail": "1-thumb.jpg",
-                    "photo": "1.jpg"
-                },
-                {
-                    "thumbnail": "2-thumb.jpg",
-                    "photo": "2.jpg"
-                }
-            ],
-            "dir": "sample"
-        }
-    ],
     "talks": [
         {
             "title": "YouTube, The Great Radicalizer?",
@@ -194,6 +177,96 @@
                 }
             ],
             "year": 2022
+        }
+    ],
+    "photos": [
+        {
+            "thumbnail": "20230204_160638-thumb.jpg",
+            "photo": "20230204_160638.jpg"
+        },
+        {
+            "thumbnail": "20221203_062647-thumb.jpg",
+            "photo": "20221203_062647.jpg"
+        },
+        {
+            "thumbnail": "20221203_062238-thumb.jpg",
+            "photo": "20221203_062238.jpg"
+        },
+        {
+            "thumbnail": "20221113_132507-thumb.jpg",
+            "photo": "20221113_132507.jpg"
+        },
+        {
+            "thumbnail": "20221111_151355-thumb.jpg",
+            "photo": "20221111_151355.jpg"
+        },
+        {
+            "thumbnail": "20220924_081841-thumb.jpg",
+            "photo": "20220924_081841.jpg"
+        },
+        {
+            "thumbnail": "20220924_075850-thumb.jpg",
+            "photo": "20220924_075850.jpg"
+        },
+        {
+            "thumbnail": "20220917_084722-thumb.jpg",
+            "photo": "20220917_084722.jpg"
+        },
+        {
+            "thumbnail": "20220917_083741-thumb.jpg",
+            "photo": "20220917_083741.jpg"
+        },
+        {
+            "thumbnail": "20220827_143153-thumb.jpg",
+            "photo": "20220827_143153.jpg"
+        },
+        {
+            "thumbnail": "20220814_150053-thumb.jpg",
+            "photo": "20220814_150053.jpg"
+        },
+        {
+            "thumbnail": "20220814_145848-thumb.jpg",
+            "photo": "20220814_145848.jpg"
+        },
+        {
+            "thumbnail": "20220813_143524-thumb.jpg",
+            "photo": "20220813_143524.jpg"
+        },
+        {
+            "thumbnail": "20220629_185718-thumb.jpg",
+            "photo": "20220629_185718.jpg"
+        },
+        {
+            "thumbnail": "20220620_134952-thumb.jpg",
+            "photo": "20220620_134952.jpg"
+        },
+        {
+            "thumbnail": "20220620_133029-thumb.jpg",
+            "photo": "20220620_133029.jpg"
+        },
+        {
+            "thumbnail": "20220618_141312-thumb.jpg",
+            "photo": "20220618_141312.jpg"
+        },
+        {
+            "thumbnail": "20220608_000103-thumb.jpg",
+            "photo": "20220608_000103.jpg"
+        },
+        {
+            "thumbnail": "20220607_182218-thumb.jpg",
+            "photo": "20220607_182218.jpg"
+        },
+        {
+            "thumbnail": "20220607_175854-thumb.jpg",
+            "photo": "20220607_175854.jpg"
+        },
+        {
+            "thumbnail": "20220607_175550-thumb.jpg",
+            "photo": "20220607_175550.jpg"
+        },
+        {
+            "thumbnail": "20220606_185227-thumb.jpg",
+            "photo": "20220606_185227.jpg"
         }
     ]
 }

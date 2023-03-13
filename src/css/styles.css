@@ -184,15 +184,24 @@ h1.publication-title:hover strong {
     }
 }
 
-.album img {
+.photo img {
     opacity: 0.9;
     cursor: pointer;
 }
 
-.album img:hover {
+.photo img:hover {
     opacity: 1;
 }
 
 #image-modal .modal-content {
     width: 80%;
+}
+
+#image-modal .modal-content p {
+    height: 100%;
+    text-align: center;
+}
+
+#image-modal img {
+    height: 99%;
 }

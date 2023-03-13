@@ -13,20 +13,19 @@
   <section class="section">
     <div class="container is-max-desktop">
 
-      <h1 class="section-title mt-6">Photos</h1>
-      <p>I like taking photos of the scenic places that I've visited. You can find some of them here.</p>
+      <h1 class="section-title mt-6">Photography</h1>
+      <p>I like taking photos of places I visit. You can find a few of my favorites here.</p>
+      <br>
 
-
-
-      <!--(bake-start _foreach="album:albums")-->
-      <h1 class="subtitle mt-6 is-flex">
-        {{ album.name }} ({{ album.year }})
-      </h1>
-      <div class="album is-flex is-flex-wrap-wrap is-align-items-start">      
-
-        <!--(bake-start _foreach="photo:album.photos")-->
-        <figure class="image is-128x128 mr-1">
-          <img src="/misc/albums/{{ album.dir }}/{{ photo.thumbnail }}" class="js-modal-trigger" data-target="image-modal" data-src="/misc/albums/{{ album.dir }}/{{ photo.photo }}">
+      <div class="photo is-flex is-flex-wrap-wrap is-align-items-start">
+        <!--(bake-start _foreach="photo:photos")-->
+        <figure class="image is-128x128 mr-1 mt-1">
+          <img src="/misc/photos/{{ photo.thumbnail }}" 
+            class="js-modal-trigger" 
+            data-target="image-modal" 
+            data-src="/misc/photos/{{ photo.photo }}"
+            data-index="{{photo@index}}"
+          >
         </figure>
         <!--(bake-end)-->
 
@@ -52,6 +51,11 @@
   <script>
 
     document.addEventListener('DOMContentLoaded', () => {
+
+      // build list of images
+      const images = document.querySelectorAll('.photo > figure.image');
+      let currentImage;
+
       // Functions to open and close a modal
       function openModal($el, src) {
         document.getElementById("modal-img").src = src;
@@ -76,6 +80,7 @@
 
         $trigger.addEventListener('click', () => {
           openModal($target, $trigger.dataset.src);
+          currentImage = $trigger.dataset.index;
         });
       });
 
