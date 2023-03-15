@@ -3,7 +3,6 @@
 
 <head>
   <title>Miscellaneous | Muhammad Haroon</title>
-  <link rel="stylesheet" href="https://cdn.iconmonstr.com/1.3.0/css/iconmonstr-iconic-font.min.css">
   <!--(bake /src/includes/head.html)-->
   <script> PAGE_NAME = 'misc';</script>
 </head>
@@ -35,8 +34,13 @@
       <div id="image-modal" class="modal">
         <div class="modal-background"></div>
         <div class="modal-content">
-          <p>
+          <p class="is-flex is-align-items-center is-justify-content-center">
+            <span class="photo-previous" aria-label="previous" id="photo-previous">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><path d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z"/></svg>            </span>
             <img id="modal-img">
+            <span class="photo-next" aria-label="next" id="photo-next">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><path d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z"/></svg>            </span>
+            </span>
           </p>
         </div>
         <button class="modal-close is-large" aria-label="close"></button>
@@ -53,7 +57,7 @@
     document.addEventListener('DOMContentLoaded', () => {
 
       // build list of images
-      const images = document.querySelectorAll('.photo > figure.image');
+      const images = document.querySelectorAll('.photo > figure.image img');
       let currentImage;
 
       // Functions to open and close a modal
@@ -100,6 +104,24 @@
         if (e.keyCode === 27) { // Escape key
           closeAllModals();
         }
+      });
+
+      document.getElementById('photo-previous').addEventListener('click', () => {
+        currentImage = parseInt(currentImage) - 1;
+        if (currentImage < 0) {
+          currentImage = images.length - 1;
+        }
+
+        document.getElementById("modal-img").src = images[currentImage].dataset.src;
+      });
+
+      document.getElementById('photo-next').addEventListener('click', () => {
+        currentImage = parseInt(currentImage) + 1;
+        if (currentImage >= images.length) {
+          currentImage = 0;
+        }
+
+        document.getElementById("modal-img").src = images[currentImage].dataset.src;
       });
     });
 
