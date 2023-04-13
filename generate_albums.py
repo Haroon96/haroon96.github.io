@@ -49,11 +49,9 @@ def generate_thumbnails():
         # crop to square ratio
         if img.width > img.height:
             margin = (img.width - img.height) // 2
-            print((margin, 0, margin, img.height))
             img = img.crop((margin, 0, margin + img.height, img.height))
         else:
             margin = (img.height - img.width) // 2
-            print((0, margin, img.width, margin))
             img = img.crop((0, margin, img.width, margin + img.width))
         
         img.thumbnail((128, 128))
