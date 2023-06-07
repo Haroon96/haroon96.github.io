@@ -1,20 +1,20 @@
 {
     "publications": [
         {
-            "title": "YouTube, The Great Radicalizer? Auditing and Mitigating Ideological Biases in YouTube Recommendations",
+            "title": "Auditing YouTube's Recommendation System for Ideologically Congenial, Extreme, and Problematic Recommendations",
             "authors": [
                 "Muhammad Haroon",
+                "Magdalena Wojcieszak",
                 "Anshuman Chhabra",
                 "Xin Liu",
                 "Prasant Mohapatra",
-                "Zubair Shafiq",
-                "Magdalena Wojcieszak"
+                "Zubair Shafiq"
             ],
-            "year": 2022,
-            "venue": "arXiv preprint",
+            "year": 2023,
+            "venue": "Proceedings of the National Academy of Sciences",
             "urls": [
                 {
-                    "name": "paper",
+                    "name": "pre-print",
                     "url": "https://arxiv.org/pdf/2203.10666.pdf"
                 },
                 {
