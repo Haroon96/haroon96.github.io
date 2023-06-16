@@ -24,6 +24,7 @@
             data-target="image-modal" 
             data-src="/misc/photos/{{ photo.photo }}"
             data-index="{{photo@index}}"
+            data-description="{{photo.description}}"
           >
         </figure>
         <!--(bake-end)-->
@@ -36,16 +37,17 @@
         <div class="modal-content">
           <p class="is-flex is-align-items-center is-justify-content-center">
             <span class="photo-previous" aria-label="previous" id="photo-previous">
-              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><path d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z"/></svg>            </span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><path d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z"/></svg>
+            </span>
             <img id="modal-img">
             <span class="photo-next" aria-label="next" id="photo-next">
-              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><path d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z"/></svg>            </span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><path d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z"/></svg>
             </span>
+            <span id="modal-description"></span>
           </p>
         </div>
         <button class="modal-close is-large" aria-label="close"></button>
       </div>
-
     </div>
   </section>
 
@@ -61,8 +63,9 @@
       let currentImage;
 
       // Functions to open and close a modal
-      function openModal($el, src) {
+      function openModal($el, src, text) {
         document.getElementById("modal-img").src = src;
+        document.getElementById("modal-description").innerText = text;
         $el.classList.add('is-active');
       }
 
@@ -83,7 +86,7 @@
         const $target = document.getElementById(modal);
 
         $trigger.addEventListener('click', () => {
-          openModal($target, $trigger.dataset.src);
+          openModal($target, $trigger.dataset.src, $trigger.dataset.description);
           currentImage = $trigger.dataset.index;
         });
       });
@@ -113,6 +116,7 @@
         }
 
         document.getElementById("modal-img").src = images[currentImage].dataset.src;
+        document.getElementById("modal-description").innerText = images[currentImage].dataset.description;
       });
 
       document.getElementById('photo-next').addEventListener('click', () => {
@@ -122,6 +126,7 @@
         }
 
         document.getElementById("modal-img").src = images[currentImage].dataset.src;
+        document.getElementById("modal-description").innerText = images[currentImage].dataset.description;
       });
     });
 
