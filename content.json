@@ -68,12 +68,17 @@
     ],
     "news": [
         {
+            "content": "Awarded the <em>GGCS Research Fellowship ($18,000)</em> for Summer 2023.",
+            "month": "Jun",
+            "year": 2023
+        },
+        {
             "content": "<em>Auditing YouTube's Recommendation System for Ideologically Congenial, Extreme, and Problematic Recommendations</em> was accepted in PNAS.",
             "month": "Jun",
             "year": 2023
         },
         {
-            "content": "Awarded the <em>GGCS Research Fellowship</em> for Spring 2023.",
+            "content": "Awarded the <em>GGCS Research Fellowship ($7,177)</em> for Spring 2023.",
             "month": "Mar",
             "year": 2023
         },
