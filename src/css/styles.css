@@ -197,9 +197,28 @@ h1.publication-title:hover strong {
     width: 80%;
 }
 
-#image-modal .modal-content p {
+#image-modal .modal-content div.photo-container {
     height: 100%;
     text-align: center;
+    overflow: hidden;
+}
+
+#image-modal .modal-content div.photo-description {
+    text-align: left;
+    position: absolute;
+    bottom: 5px;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0.75;
+}
+
+#image-modal .modal-content div.photo-description:hover {
+    opacity: 1;
+}
+
+#image-modal .modal-content div.photo-description span {
+    padding: 4px 8px;
+    color: #fff;
+    font-size: 16px;
 }
 
 #image-modal img {
