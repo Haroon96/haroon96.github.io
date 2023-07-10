@@ -206,7 +206,7 @@ h1.publication-title:hover strong {
 #image-modal .modal-content div.photo-description {
     text-align: left;
     position: absolute;
-    bottom: 5px;
+    bottom: 4px;
     background: rgba(0, 0, 0, 0.5);
     opacity: 0.75;
 }
