@@ -2,9 +2,9 @@
 <html>
 
 <head>
-  <title>Miscellaneous | Muhammad Haroon</title>
+  <title>Photos | Muhammad Haroon</title>
   <!--(bake /src/includes/head.html)-->
-  <script> PAGE_NAME = 'misc';</script>
+  <script> PAGE_NAME = 'photos';</script>
 </head>
 
 <body>
@@ -17,12 +17,12 @@
       <br>
 
       <div class="photo is-flex is-flex-wrap-wrap is-align-items-start">
-        <!--(bake-start _foreach="photo:misc.photos")-->
+        <!--(bake-start _foreach="photo:photos.photos")-->
         <figure class="image is-128x128 mr-1 mt-1">
-          <img src="/misc/photos/{{ photo.thumbnail }}" 
+          <img src="/photos/photos/{{ photo.thumbnail }}" 
             class="js-modal-trigger" 
             data-target="image-modal" 
-            data-src="/misc/photos/{{ photo.photo }}"
+            data-src="/photos/photos/{{ photo.photo }}"
             data-index="{{photo@index}}"
             data-description="{{photo.description}}"
           >

@@ -184,181 +184,207 @@
             "year": 2022
         }
     ],
-    "photos": [
-        {
-            "thumbnail": "20230330_165303-thumb.jpg",
-            "photo": "20230330_165303.jpg",
-            "description": "03/30/2023 - Grand Canyon - Grand Canyon, AZ"
-        },
-        {
-            "thumbnail": "20230330_163959-thumb.jpg",
-            "photo": "20230330_163959.jpg",
-            "description": "03/30/2023 - Grand Canyon - Grand Canyon, AZ"
-        },
-        {
-            "thumbnail": "20230330_130411-thumb.jpg",
-            "photo": "20230330_130411.jpg",
-            "description": "03/30/2023 - Horseshoe Bend - Glen Canyon, AZ"
-        },
-        {
-            "thumbnail": "20230330_125318-thumb.jpg",
-            "photo": "20230330_125318.jpg",
-            "description": "03/30/2023 - Horseshoe Bend - Glen Canyon, AZ"
-        },
-        {
-            "thumbnail": "20230329_142606-thumb.jpg",
-            "photo": "20230329_142606.jpg",
-            "description": "03/29/2023 - Hoover Dam - NV/AZ"
-        },
-        {
-            "thumbnail": "20230329_142554-thumb.jpg",
-            "photo": "20230329_142554.jpg",
-            "description": "03/29/2023 - Hoover Dam - NV/AZ"
-        },
-        {
-            "thumbnail": "20230329_125544-thumb.jpg",
-            "photo": "20230329_125544.jpg",
-            "description": "03/29/2023 - Hoover Dam - NV/AZ"
-        },
-        {
-            "thumbnail": "20230328_215604-thumb.jpg",
-            "photo": "20230328_215604.jpg",
-            "description": "03/28/2023 - Eiffel Tower - Las Vegas, NV"
-        },
-        {
-            "thumbnail": "20230326_185809-thumb.jpg",
-            "photo": "20230326_185809.jpg",
-            "description": "03/26/2023 - Sunset Cliffs - San Diego, CA"
-        },
-        {
-            "thumbnail": "20230326_172029-thumb.jpg",
-            "photo": "20230326_172029.jpg",
-            "description": "03/26/2023 - Sunset Cliffs - San Diego, CA"
-        },
-        {
-            "thumbnail": "20230326_171714-thumb.jpg",
-            "photo": "20230326_171714.jpg",
-            "description": "03/26/2023 - Sunset Cliffs - San Diego, CA"
-        },
-        {
-            "thumbnail": "20230318_185205-thumb.jpg",
-            "photo": "20230318_185205.jpg",
-            "description": "02/18/2023 - Bixby Bridge - Big Sur, CA"
-        },
-        {
-            "thumbnail": "20230318_175437-thumb.jpg",
-            "photo": "20230318_175437.jpg",
-            "description": "02/18/2023 - Pebble Beach, CA"
-        },
-        {
-            "thumbnail": "20230318_175414-thumb.jpg",
-            "photo": "20230318_175414.jpg",
-            "description": "02/18/2023 - Lone Cypress - Pebble Beach, CA"
-        },
-        {
-            "thumbnail": "20230318_154456-thumb.jpg",
-            "photo": "20230318_154456.jpg",
-            "description": "02/18/2023 - Santa Cruz, CA"
-        },
-        {
-            "thumbnail": "20230204_160638-thumb.jpg",
-            "photo": "20230204_160638.jpg",
-            "description": "02/04/2023 - Golden Gate Bridge - San Francisco, CA"
-        },
-        {
-            "thumbnail": "20221203_062647-thumb.jpg",
-            "photo": "20221203_062647.jpg",
-            "description": "12/03/2022 - Santa Monica Pier - Los Angeles, CA"
-        },
-        {
-            "thumbnail": "20221203_062238-thumb.jpg",
-            "photo": "20221203_062238.jpg",
-            "description": "12/03/2022 - Santa Monica Pier - Los Angeles, CA"
-        },
-        {
-            "thumbnail": "20221113_132507-thumb.jpg",
-            "photo": "20221113_132507.jpg",
-            "description": "11/13/2022 - Downtown Chicago - Chicago, IL"
-        },
-        {
-            "thumbnail": "20221111_151355-thumb.jpg",
-            "photo": "20221111_151355.jpg",
-            "description": "11/11/2022 - Chicago Riverwalk - Chicago, IL"
-        },
-        {
-            "thumbnail": "20220924_081841-thumb.jpg",
-            "photo": "20220924_081841.jpg",
-            "description": "09/24/2022 - Homestead to Blue Ridge Loop - Winters, CA"
-        },
-        {
-            "thumbnail": "20220924_075850-thumb.jpg",
-            "photo": "20220924_075850.jpg",
-            "description": "09/24/2022 - Homestead to Blue Ridge Loop - Winters, CA"
-        },
-        {
-            "thumbnail": "20220917_084722-thumb.jpg",
-            "photo": "20220917_084722.jpg",
-            "description": "09/17/2022 - Homestead to Blue Ridge Loop - Winters, CA"
-        },
-        {
-            "thumbnail": "20220917_083741-thumb.jpg",
-            "photo": "20220917_083741.jpg",
-            "description": "09/17/2022 - Homestead to Blue Ridge Loop - Winters, CA"
-        },
-        {
-            "thumbnail": "20220827_143153-thumb.jpg",
-            "photo": "20220827_143153.jpg",
-            "description": "08/27/2022 - Lake Tahoe - Tahoe City, CA"
-        },
-        {
-            "thumbnail": "20220814_145848-thumb.jpg",
-            "photo": "20220814_145848.jpg",
-            "description": "08/14/2022 - "
-        },
-        {
-            "thumbnail": "20220813_143524-thumb.jpg",
-            "photo": "20220813_143524.jpg",
-            "description": "08/13/2022 - Lake Crescent - Olympic National Park, WA"
-        },
-        {
-            "thumbnail": "20220629_185718-thumb.jpg",
-            "photo": "20220629_185718.jpg",
-            "description": "06/07/2022 - New York City Skyline - Hoboken, NJ"
-        },
-        {
-            "thumbnail": "20220620_134952-thumb.jpg",
-            "photo": "20220620_134952.jpg",
-            "description": "06/07/2022 - Philadelphia Museum of Arts - Philadelphia, PA"
-        },
-        {
-            "thumbnail": "20220620_133029-thumb.jpg",
-            "photo": "20220620_133029.jpg",
-            "description": "06/20/2022 - Eakins Oval - Philadelphia, PA"
-        },
-        {
-            "thumbnail": "20220618_141312-thumb.jpg",
-            "photo": "20220618_141312.jpg",
-            "description": "06/18/2022 - Harvard University Memorial Hall - Cambridge, MA"
-        },
-        {
-            "thumbnail": "20220607_182218-thumb.jpg",
-            "photo": "20220607_182218.jpg",
-            "description": "06/07/2022 - Atlanta, GA"
-        },
-        {
-            "thumbnail": "20220607_175854-thumb.jpg",
-            "photo": "20220607_175854.jpg",
-            "description": "06/07/2022 - Piedmont Park - Atlanta, GA"
-        },
-        {
-            "thumbnail": "20220607_175550-thumb.jpg",
-            "photo": "20220607_175550.jpg",
-            "description": "06/07/2022 - Piedmont Park - Atlanta, GA"
-        },
-        {
-            "thumbnail": "20220606_185227-thumb.jpg",
-            "photo": "20220606_185227.jpg",
-            "description": "06/06/2022 - Atlanta, GA"
-        }
-    ]
+    "misc": {
+        "photos": [
+            {
+                "thumbnail": "20230330_165303-thumb.jpg",
+                "photo": "20230330_165303.jpg",
+                "description": "03/30/2023 - Grand Canyon - Grand Canyon, AZ"
+            },
+            {
+                "thumbnail": "20230330_163959-thumb.jpg",
+                "photo": "20230330_163959.jpg",
+                "description": "03/30/2023 - Grand Canyon - Grand Canyon, AZ"
+            },
+            {
+                "thumbnail": "20230330_130411-thumb.jpg",
+                "photo": "20230330_130411.jpg",
+                "description": "03/30/2023 - Horseshoe Bend - Glen Canyon, AZ"
+            },
+            {
+                "thumbnail": "20230330_125318-thumb.jpg",
+                "photo": "20230330_125318.jpg",
+                "description": "03/30/2023 - Horseshoe Bend - Glen Canyon, AZ"
+            },
+            {
+                "thumbnail": "20230329_142606-thumb.jpg",
+                "photo": "20230329_142606.jpg",
+                "description": "03/29/2023 - Hoover Dam - NV/AZ"
+            },
+            {
+                "thumbnail": "20230329_142554-thumb.jpg",
+                "photo": "20230329_142554.jpg",
+                "description": "03/29/2023 - Hoover Dam - NV/AZ"
+            },
+            {
+                "thumbnail": "20230329_125544-thumb.jpg",
+                "photo": "20230329_125544.jpg",
+                "description": "03/29/2023 - Hoover Dam - NV/AZ"
+            },
+            {
+                "thumbnail": "20230328_215604-thumb.jpg",
+                "photo": "20230328_215604.jpg",
+                "description": "03/28/2023 - Eiffel Tower - Las Vegas, NV"
+            },
+            {
+                "thumbnail": "20230326_185809-thumb.jpg",
+                "photo": "20230326_185809.jpg",
+                "description": "03/26/2023 - Sunset Cliffs - San Diego, CA"
+            },
+            {
+                "thumbnail": "20230326_172029-thumb.jpg",
+                "photo": "20230326_172029.jpg",
+                "description": "03/26/2023 - Sunset Cliffs - San Diego, CA"
+            },
+            {
+                "thumbnail": "20230326_171714-thumb.jpg",
+                "photo": "20230326_171714.jpg",
+                "description": "03/26/2023 - Sunset Cliffs - San Diego, CA"
+            },
+            {
+                "thumbnail": "20230318_185205-thumb.jpg",
+                "photo": "20230318_185205.jpg",
+                "description": "02/18/2023 - Bixby Bridge - Big Sur, CA"
+            },
+            {
+                "thumbnail": "20230318_175437-thumb.jpg",
+                "photo": "20230318_175437.jpg",
+                "description": "02/18/2023 - Pebble Beach, CA"
+            },
+            {
+                "thumbnail": "20230318_175414-thumb.jpg",
+                "photo": "20230318_175414.jpg",
+                "description": "02/18/2023 - Lone Cypress - Pebble Beach, CA"
+            },
+            {
+                "thumbnail": "20230318_154456-thumb.jpg",
+                "photo": "20230318_154456.jpg",
+                "description": "02/18/2023 - Santa Cruz, CA"
+            },
+            {
+                "thumbnail": "20230204_160638-thumb.jpg",
+                "photo": "20230204_160638.jpg",
+                "description": "02/04/2023 - Golden Gate Bridge - San Francisco, CA"
+            },
+            {
+                "thumbnail": "20221203_062647-thumb.jpg",
+                "photo": "20221203_062647.jpg",
+                "description": "12/03/2022 - Santa Monica Pier - Los Angeles, CA"
+            },
+            {
+                "thumbnail": "20221203_062238-thumb.jpg",
+                "photo": "20221203_062238.jpg",
+                "description": "12/03/2022 - Santa Monica Pier - Los Angeles, CA"
+            },
+            {
+                "thumbnail": "20221113_132507-thumb.jpg",
+                "photo": "20221113_132507.jpg",
+                "description": "11/13/2022 - Downtown Chicago - Chicago, IL"
+            },
+            {
+                "thumbnail": "20221111_151355-thumb.jpg",
+                "photo": "20221111_151355.jpg",
+                "description": "11/11/2022 - Chicago Riverwalk - Chicago, IL"
+            },
+            {
+                "thumbnail": "20220924_081841-thumb.jpg",
+                "photo": "20220924_081841.jpg",
+                "description": "09/24/2022 - Homestead to Blue Ridge Loop - Winters, CA"
+            },
+            {
+                "thumbnail": "20220924_075850-thumb.jpg",
+                "photo": "20220924_075850.jpg",
+                "description": "09/24/2022 - Homestead to Blue Ridge Loop - Winters, CA"
+            },
+            {
+                "thumbnail": "20220917_084722-thumb.jpg",
+                "photo": "20220917_084722.jpg",
+                "description": "09/17/2022 - Homestead to Blue Ridge Loop - Winters, CA"
+            },
+            {
+                "thumbnail": "20220917_083741-thumb.jpg",
+                "photo": "20220917_083741.jpg",
+                "description": "09/17/2022 - Homestead to Blue Ridge Loop - Winters, CA"
+            },
+            {
+                "thumbnail": "20220827_143153-thumb.jpg",
+                "photo": "20220827_143153.jpg",
+                "description": "08/27/2022 - Lake Tahoe - Tahoe City, CA"
+            },
+            {
+                "thumbnail": "20220814_145848-thumb.jpg",
+                "photo": "20220814_145848.jpg",
+                "description": "08/14/2022 - "
+            },
+            {
+                "thumbnail": "20220813_143524-thumb.jpg",
+                "photo": "20220813_143524.jpg",
+                "description": "08/13/2022 - Lake Crescent - Olympic National Park, WA"
+            },
+            {
+                "thumbnail": "20220629_185718-thumb.jpg",
+                "photo": "20220629_185718.jpg",
+                "description": "06/07/2022 - New York City Skyline - Hoboken, NJ"
+            },
+            {
+                "thumbnail": "20220620_134952-thumb.jpg",
+                "photo": "20220620_134952.jpg",
+                "description": "06/07/2022 - Philadelphia Museum of Arts - Philadelphia, PA"
+            },
+            {
+                "thumbnail": "20220620_133029-thumb.jpg",
+                "photo": "20220620_133029.jpg",
+                "description": "06/20/2022 - Eakins Oval - Philadelphia, PA"
+            },
+            {
+                "thumbnail": "20220618_141312-thumb.jpg",
+                "photo": "20220618_141312.jpg",
+                "description": "06/18/2022 - Harvard University Memorial Hall - Cambridge, MA"
+            },
+            {
+                "thumbnail": "20220607_182218-thumb.jpg",
+                "photo": "20220607_182218.jpg",
+                "description": "06/07/2022 - Atlanta, GA"
+            },
+            {
+                "thumbnail": "20220607_175854-thumb.jpg",
+                "photo": "20220607_175854.jpg",
+                "description": "06/07/2022 - Piedmont Park - Atlanta, GA"
+            },
+            {
+                "thumbnail": "20220607_175550-thumb.jpg",
+                "photo": "20220607_175550.jpg",
+                "description": "06/07/2022 - Piedmont Park - Atlanta, GA"
+            },
+            {
+                "thumbnail": "20220606_185227-thumb.jpg",
+                "photo": "20220606_185227.jpg",
+                "description": "06/06/2022 - Atlanta, GA"
+            }
+        ]
+    },
+    "photos": {
+        "photos": [
+            {
+                "thumbnail": "4-thumb.jpg",
+                "photo": "4.jpg",
+                "description": "12/2022 - With the NothingToHide team - Irvine, CA"
+            },
+            {
+                "thumbnail": "3-thumb.jpeg",
+                "photo": "3.jpeg",
+                "description": "11/2022 - Teaching a class on computer networks - Davis, CA"
+            },
+            {
+                "thumbnail": "2-thumb.jpg",
+                "photo": "2.jpg",
+                "description": "06/2022 - PaCSS'22 presentation at Harvard University - Cambridge, MA"
+            },
+            {
+                "thumbnail": "1-thumb.jpeg",
+                "photo": "1.jpeg",
+                "description": "11/2021 - From the first ProperData Symposium - Irvine, CA"
+            }
+        ]
+    }
 }
