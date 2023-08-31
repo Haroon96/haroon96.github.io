@@ -8,10 +8,6 @@
     font-family: var(--font-family);
 }
 
-a {
-    color: var(--accent);
-}
-
 body {
     display: flex;
     min-height: 100vh;
@@ -27,9 +23,16 @@ body {
 }
 
 p,
-.navbar a {
-    /* font-weight: 300; */
+.navbar a.navbar-item {
     color: #777;
+}
+
+.navbar a.navbar-title {
+    color: #4a4a4a;
+}
+
+.navbar a.navbar-title:hover {
+    color: black;
 }
 
 .navbar a {
