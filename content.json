@@ -197,6 +197,11 @@
     "misc": {
         "photos": [
             {
+                "thumbnail": "20230917_172926-thumb.jpg",
+                "photo": "20230917_172926.jpg",
+                "description": "09/17/2023 - Boston Harbor - Boston, MA"
+            },
+            {
                 "thumbnail": "20230330_165303-thumb.jpg",
                 "photo": "20230330_165303.jpg",
                 "description": "03/30/2023 - Grand Canyon - Grand Canyon, AZ"
