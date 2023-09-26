@@ -386,6 +386,21 @@
     "photos": {
         "photos": [
             {
+                "thumbnail": "7-thumb.jpg",
+                "photo": "7.jpg",
+                "description": "09/2023 - Presenting ideas at the third ProperData Symposium - Boston, MA"
+            },
+            {
+                "thumbnail": "6-thumb.jpg",
+                "photo": "6.jpg",
+                "description": "09/2023 - Poster presentation at the third ProperData Symposium - Boston, MA"
+            },
+            {
+                "thumbnail": "5-thumb.jpg",
+                "photo": "5.jpg",
+                "description": "09/2023 - Lightning talk at the third ProperData Symposium - Boston, MA"
+            },
+            {
                 "thumbnail": "4-thumb.jpg",
                 "photo": "4.jpg",
                 "description": "12/2022 - With the NothingToHide team - Irvine, CA"
