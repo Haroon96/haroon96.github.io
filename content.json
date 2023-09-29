@@ -68,6 +68,16 @@
     ],
     "news": [
         {
+            "content": "Attended the <em>Trust & Safety Research Conference</em> at Stanford University.",
+            "month": "Sep",
+            "year": 2023
+        },
+        {
+            "content": "Attended the third annual <em>ProperData Symposium</em> at Northeastern University.",
+            "month": "Sep",
+            "year": 2023
+        },
+        {
             "content": "Awarded the <em>GGCS Research Fellowship ($18,000)</em> for Summer 2023.",
             "month": "Jun",
             "year": 2023
@@ -186,6 +196,11 @@
     ],
     "misc": {
         "photos": [
+            {
+                "thumbnail": "20230917_163319-thumb.jpg",
+                "photo": "20230917_163319.jpg",
+                "description": "09/17/2023 - Boston Harbor - Boston, MA"
+            },
             {
                 "thumbnail": "20230330_165303-thumb.jpg",
                 "photo": "20230330_165303.jpg",
@@ -385,6 +400,21 @@
     },
     "photos": {
         "photos": [
+            {
+                "thumbnail": "7-thumb.jpg",
+                "photo": "7.jpg",
+                "description": "09/2023 - Presenting ideas at the third ProperData Symposium - Boston, MA"
+            },
+            {
+                "thumbnail": "6-thumb.jpg",
+                "photo": "6.jpg",
+                "description": "09/2023 - Poster presentation at the third ProperData Symposium - Boston, MA"
+            },
+            {
+                "thumbnail": "5-thumb.jpg",
+                "photo": "5.jpg",
+                "description": "09/2023 - Lightning talk at the third ProperData Symposium - Boston, MA"
+            },
             {
                 "thumbnail": "4-thumb.jpg",
                 "photo": "4.jpg",
