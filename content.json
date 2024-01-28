@@ -1,6 +1,28 @@
 {
     "publications": [
         {
+            "title": "Nudging the Recommendation Algorithm Increases News Consumption and Diversity on YouTube",
+            "authors": [
+                "Muhammad Haroon",
+                "Xudong Yu",
+                "Ericka Menchen-Trevino",
+                "Magdalena Wojcieszak"
+            ],
+            "year": 2023,
+            "venue": "Nature Portfolio pre-print",
+            "urls": [
+                {
+                    "name": "pre-print",
+                    "url": "https://www.researchsquare.com/article/rs-3349905/v1"
+                },
+                {
+                    "name": "website",
+                    "url": "https://ercexpo.github.io/ResearchTube/"
+                }
+            ]
+
+        },
+        {
             "title": "Auditing YouTube's Recommendation System for Ideologically Congenial, Extreme, and Problematic Recommendations",
             "authors": [
                 "Muhammad Haroon",
@@ -14,8 +36,8 @@
             "venue": "Proceedings of the National Academy of Sciences (<strong>PNAS</strong>)",
             "urls": [
                 {
-                    "name": "pre-print",
-                    "url": "https://arxiv.org/pdf/2203.10666.pdf"
+                    "name": "paper",
+                    "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2213020120"
                 },
                 {
                     "name": "website",
@@ -53,7 +75,7 @@
                 "Zubair Shafiq"
             ],
             "year": 2021,
-            "venue": "arXiv preprint",
+            "venue": "arXiv pre-print",
             "urls": [
                 {
                     "name": "paper",
