@@ -1,6 +1,7 @@
 from PIL import Image
 import os
 import json
+import re
 
 def build_content_json(photo_dir, old_photos):
 
@@ -22,8 +23,12 @@ def build_content_json(photo_dir, old_photos):
         
         # check if new photo
         if photo not in existing_photos:
+            # extract date from name
+            date = re.search(r'(?P<y>[0-9]{4})(?P<m>[0-9]{2})(?P<d>[0-9]{2}).*', photo).groupdict()
+            # build description
+            description = f'{date["m"]}/{date["d"]}/{date["y"]} - '
             # append to photo list
-            photos.append({ 'thumbnail': f'{root}-thumb{ext}', 'photo': photo })
+            photos.append({ 'thumbnail': f'{root}-thumb{ext}', 'photo': photo, 'description': description })
         else:
             # append from old list
             photos.append(existing_photos[photo])

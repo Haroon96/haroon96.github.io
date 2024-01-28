@@ -197,6 +197,106 @@
     "misc": {
         "photos": [
             {
+                "thumbnail": "20231205_161037-thumb.jpg",
+                "photo": "20231205_161037.jpg",
+                "description": "12/05/2023 - St. Peter's Basilica - Vatican City"
+            },
+            {
+                "thumbnail": "20231205_153235-thumb.jpg",
+                "photo": "20231205_153235.jpg",
+                "description": "12/05/2023 - St. Peter's Square - Vatican City"
+            },
+            {
+                "thumbnail": "20231204_131438-thumb.jpg",
+                "photo": "20231204_131438.jpg",
+                "description": "12/04/2023 - Colosseum Exterior - Rome, Italy"
+            },
+            {
+                "thumbnail": "20231204_122304-thumb.jpg",
+                "photo": "20231204_122304.jpg",
+                "description": "12/04/2023 - Colosseum Interior - Rome, Italy"
+            },
+            {
+                "thumbnail": "20231202_163131-thumb.jpg",
+                "photo": "20231202_163131.jpg",
+                "description": "12/02/2023 - Sunset in Naples - Naples, Italy"
+            },
+            {
+                "thumbnail": "20231202_153335-thumb.jpg",
+                "photo": "20231202_153335.jpg",
+                "description": "12/02/2023 - Mt. Vesuvius from afar - Naples, Italy"
+            },
+            {
+                "thumbnail": "20231202_133341-thumb.jpg",
+                "photo": "20231202_133341.jpg",
+                "description": "12/02/2023 - Rooftop in Naples - Naples, Italy"
+            },
+            {
+                "thumbnail": "20231130_192530-thumb.jpg",
+                "photo": "20231130_192530.jpg",
+                "description": "11/30/2023 - Florence Cathedral - Florence, Italy"
+            },
+            {
+                "thumbnail": "20231130_124142-thumb.jpg",
+                "photo": "20231130_124142.jpg",
+                "description": "11/30/2023 - Arno River - Florence, Italy"
+            },
+            {
+                "thumbnail": "20231130_123237-thumb.jpg",
+                "photo": "20231130_123237.jpg",
+                "description": "11/30/2023 - Florence - Florence, Italy"
+            },
+            {
+                "thumbnail": "20231129_152655-thumb.jpg",
+                "photo": "20231129_152655.jpg",
+                "description": "11/29/2023 - Florence  - Florence, Italy"
+            },
+            {
+                "thumbnail": "20231128_173610-thumb.jpg",
+                "photo": "20231128_173610.jpg",
+                "description": "11/28/2023 - Sunset from the Church of the Sacred Heart of Jesus - Barcelona, Spain"
+            },
+            {
+                "thumbnail": "20231128_173452-thumb.jpg",
+                "photo": "20231128_173452.jpg",
+                "description": "11/28/2023 - View from the Church of the Sacred Heart of Jesus - Barcelona, Spain"
+            },
+            {
+                "thumbnail": "20231128_144108-thumb.jpg",
+                "photo": "20231128_144108.jpg",
+                "description": "11/28/2023 - La Sagrada Familia Interior - Barcelona, Spain"
+            },
+            {
+                "thumbnail": "20231128_143804-thumb.jpg",
+                "photo": "20231128_143804.jpg",
+                "description": "11/28/2023 - La Sagrada Familia Interior - Barcelona, Spain"
+            },
+            {
+                "thumbnail": "20231128_143404-thumb.jpg",
+                "photo": "20231128_143404.jpg",
+                "description": "11/28/2023 - La Sagrada Familia - Barcelona, Spain"
+            },
+            {
+                "thumbnail": "20231128_143138-thumb.jpg",
+                "photo": "20231128_143138.jpg",
+                "description": "11/28/2023 - La Sagrada Familia - Barcelona, Spain"
+            },
+            {
+                "thumbnail": "20231128_112336-thumb.jpg",
+                "photo": "20231128_112336.jpg",
+                "description": "11/28/2023 - Casa Batllo - Barcelona, Spain"
+            },
+            {
+                "thumbnail": "20231124_172358-thumb.jpg",
+                "photo": "20231124_172358.jpg",
+                "description": "11/24/2023 - Mosque–Cathedral of Córdoba - Córdoba, Spain"
+            },
+            {
+                "thumbnail": "20231123_151040-thumb.jpg",
+                "photo": "20231123_151040.jpg",
+                "description": "11/23/2023 - Seville Cathedral - Seville, Spain"
+            },
+            {
                 "thumbnail": "20230917_163319-thumb.jpg",
                 "photo": "20230917_163319.jpg",
                 "description": "09/17/2023 - Boston Harbor - Boston, MA"
