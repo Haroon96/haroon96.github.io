@@ -90,6 +90,11 @@
     ],
     "news": [
         {
+            "content": "Invited to attend the <em>MPK Meta Research Day</em> at their Menlo Park HQ.",
+            "month": "Oct",
+            "year": 2024
+        },
+        {
             "content": "Presented at <em>Trust & Safety Research Conference</em> at Stanford University.",
             "month": "Sep",
             "year": 2024
