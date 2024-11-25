@@ -12,8 +12,8 @@
             "venue": "PNAS Nexus",
             "urls": [
                 {
-                    "name": "pre-print",
-                    "url": "https://www.researchsquare.com/article/rs-3349905/v1"
+                    "name": "paper",
+                    "url": "https://academic.oup.com/pnasnexus/advance-article/doi/10.1093/pnasnexus/pgae518/7904735"
                 },
                 {
                     "name": "website",
@@ -89,6 +89,11 @@
         }
     ],
     "news": [
+        {
+            "content": "<em>Nudging the Recommendation Algorithm Increases News Consumption and Diversity on YouTube</em> was accepted at PNAS Nexus."
+            "month": "Nov",
+            "year": 2024
+        },
         {
             "content": "Invited to attend the <em>MPK Meta Research Day</em> at their Menlo Park HQ.",
             "month": "Oct",
