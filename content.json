@@ -1,6 +1,24 @@
 {
     "publications": [
         {
+            "title": "Re-ranking Using Large Language Models for Mitigating Exposure to Harmful Content on Social Media Platforms",
+            "authors": [
+                "Rajvardhan Oak",
+                "Muhammad Haroon",
+                "Claire Jo",
+                "Magdalena Wojcieszak",
+                "Anshuman Chhabra"
+            ],
+            "year": 2025,
+            "venue": "arXiv pre-print",
+            "urls": [
+                {
+                    "name": "paper",
+                    "url": "https://arxiv.org/pdf/2501.13977"
+                }
+            ]
+        },
+        {
             "title": "Nudging the Recommendation Algorithm Increases News Consumption and Diversity on YouTube",
             "authors": [
                 "Xudong Yu",
@@ -20,7 +38,6 @@
                     "url": "https://ercexpo.github.io/ResearchTube/"
                 }
             ]
-
         },
         {
             "title": "Auditing YouTube's Recommendation System for Ideologically Congenial, Extreme, and Problematic Recommendations",
@@ -206,7 +223,7 @@
                     "url": "https://docs.google.com/presentation/d/1J2yXDEJmxaazbuNjKgZ3nnZo8x0i-rY8oMzycSWethA/edit?usp=sharing"
                 }
             ]
-        }, 
+        },
         {
             "title": "YouTube, The Great Radicalizer?",
             "venue": "Politics and Computational Social Science Conference (PaCSS), Harvard University<br>Summer Institute in Computation Social Science (SICSS), University of Pennsylvania",
