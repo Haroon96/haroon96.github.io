@@ -1,0 +1,25 @@
+{
+  "name": "haroon96.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haroon96/haroon96.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haroon96/haroon96.github.io/issues"
+  },
+  "homepage": "https://github.com/haroon96/haroon96.github.io#readme",
+  "dependencies": {
+    "astro": "^5.5.4",
+    "marked": "^15.0.7"
+  }
+}

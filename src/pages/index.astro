@@ -1,0 +1,163 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "../layouts/Layout.astro";
+import NavigationBar from "../components/NavigationBar.astro";
+import Publication from "../components/Publication.astro";
+import News from "../components/News.astro";
+import Talk from "../components/Talk.astro";
+import Podcast from "../components/Podcast.astro";
+
+import haroon from "../images/haroon.jpg";
+import { Content as Introduction } from "../data/introduction.md";
+
+import X from "../components/social/X.astro";
+import Email from "../components/social/Email.astro";
+import GitHub from "../components/social/GitHub.astro";
+import LinkedIn from "../components/social/LinkedIn.astro";
+import Scholar from "../components/social/Scholar.astro";
+
+const publications = await getCollection("publications");
+const news = await getCollection("news");
+const talks = await getCollection("talks");
+const podcasts = await getCollection("podcasts");
+---
+
+<Layout title="Muhammad Haroon">
+    <NavigationBar page="about" />
+
+    <section class="section">
+        <div class="container is-max-desktop">
+            <div class="columns">
+                <div
+                    class="column is-flex is-align-items-center is-one-fifth is-flex-direction-column"
+                >
+                    <div>
+                        <figure class="image avatar">
+                            <img src={haroon.src} />
+                        </figure>
+                    </div>
+                    <ul
+                        class="social-list mt-4 is-flex is-justify-content-space-evenly"
+                    >
+                        <li>
+                            <X href="https://x.com/mharoon_" />
+                        </li>
+                        <li>
+                            <GitHub href="https://github.com/haroon96" />
+                        </li>
+                        <li>
+                            <Email href="mailto:mharoon@ucdavis.edu" />
+                        </li>
+                        <li>
+                            <LinkedIn href="https://linkedin.com/in/haroon96" />
+                        </li>
+                        <li>
+                            <Scholar
+                                href="https://scholar.google.com/citations?user=K-B3uIEAAAAJ&hl=en"
+                            />
+                        </li>
+                    </ul>
+                </div>
+                <div class="column is-four-fifths">
+                    <div class="introduction mt-1">
+                        <Introduction />
+                    </div>
+                    <h1 class="section-title mt-4">News</h1>
+                    <div class="news-container">
+                        {news.map((x) => <News news={x.data} />)}
+                    </div>
+                    <div class="news-container-see-more has-text-centered">
+                        <a see-more>[see more]</a>
+                    </div>
+                    <h1 class="section-title mt-4">Publications</h1>
+                    <div class="publications">
+                        {
+                            publications.map((x) => (
+                                <Publication publication={x.data} />
+                            ))
+                        }
+                    </div>
+                    <h1 class="section-title mt-4">Talks + Podcasts</h1>
+                    <div class="talks">
+                        {
+                            talks.map((x) => (
+                                <Talk talk={x.data} />
+                            ))
+                        }
+                    </div> 
+                    <div class="podcasts">
+                        {
+                            podcasts.map((x) => (
+                                <Podcast podcast={x.data} />
+                            ))
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</Layout>
+
+
+<script>
+
+    const news = document.querySelector(".news-container");
+    const seeMore = document.querySelectorAll("[see-more]");
+
+    seeMore.forEach((a) => {
+        a.addEventListener('click', see_more_news);
+    })
+
+    let height = 100;
+    function updateHeight() {
+        news.style.maxHeight = `${height}px`;
+    }
+    window.onload = function () {
+        updateHeight();
+    };
+    function see_more_news(e) {
+        height += 150;
+        updateHeight();
+        if (height > news.scrollHeight) {
+            e.target.remove();
+        }
+    }
+</script>
+
+<style>
+    .avatar {
+        max-width: 192px;
+    }
+
+    .avatar img {
+        border-radius: 10% 10% 10% 10%;
+    }
+
+    div.introduction :global(p) {
+        font-size: 1.15rem;
+    }
+
+    ul.social-list {
+        width: 90%;
+    }
+
+    ul.social-list > li {
+        margin-bottom: 0.2em;
+        font-size: 0.8em;
+        text-align: right;
+    }
+
+    ul.social-list :global(svg) {
+        fill: #aaa;
+    }
+
+    ul.social-list :global(svg:hover) {
+        fill: var(--accent);
+    }
+
+    .news-container {
+        overflow: hidden;
+        transition: all linear 0.1s;
+        font-weight: lighter;
+    }
+</style>
