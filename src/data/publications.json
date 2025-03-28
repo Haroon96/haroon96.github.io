@@ -1,5 +1,21 @@
 [
   {
+    "title": "\"Whose Side Are You On?\" Estimating Ideology of Political and News Content Using Large Language Models and Few-shot Demonstration Selection",
+    "authors": [
+      "Muhammad Haroon",
+      "Magdalena Wojcieszak",
+      "Anshuman Chhabra"
+    ],
+    "year": 2025,
+    "venue": "arXiv pre-print",
+    "urls": [
+      {
+        "name": "paper",
+        "url": "https://arxiv.org/pdf/2503.20797"
+      }
+    ]
+  },
+  {
     "title": "Re-ranking Using Large Language Models for Mitigating Exposure to Harmful Content on Social Media Platforms",
     "authors": [
       "Rajvardhan Oak",
