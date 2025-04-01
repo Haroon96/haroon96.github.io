@@ -3,7 +3,7 @@ const { page } = Astro.props;
 ---
 <section class="section p-3 navbar">
     <div
-        class="container is-max-desktop is-size-4 is-flex is-align-items-center"
+        class="container is-max-desktop is-size-4 is-flex is-align-items-center is-justify-content-space-between"
     >
         <div>
             <h1 class="is-size-4">
@@ -49,7 +49,8 @@ const { page } = Astro.props;
     }
 
     .navbar-menu {
-        justify-content: end;
+        background-color: transparent !important;
+        box-shadow: none !important;
     }
 
     .navbar-menu a.navbar-item {

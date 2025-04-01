@@ -6,8 +6,10 @@ def generate_ids():
     for json_file in json_files:
         with open(json_file) as f:
             js = json.load(f)
-        for idx, entry in enumerate(js):
+        idx = len(js)
+        for entry in js:
             entry['id'] = idx
+            idx -= 1
         with open(json_file, 'w') as f:
             json.dump(js, f, indent=2)
 
