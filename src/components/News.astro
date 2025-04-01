@@ -24,18 +24,14 @@ const text = await parseInline(news.text);
 <style>
     .news-item {
         display: flex;
+        font-weight: 400;
+        font-size: 0.95em;
+        align-items: start;
     }
     .news-item > span:first-child {
         margin-right: 8px;
     }
     .news-item > span:last-child {
         margin-left: 16px;
-    }
-    .news-item {
-        font-weight: lighter;
-    }
-    .news-item :global(strong) {
-        font-style: normal;
-        font-weight: normal;
     }
 </style>
