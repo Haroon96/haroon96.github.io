@@ -34,4 +34,8 @@ const text = await parseInline(news.text);
     .news-item > span:last-child {
         margin-left: 16px;
     }
+    .news-item > span:last-child,
+    .news-item > span:last-child :global(strong) {
+        color: #777;
+    }
 </style>
