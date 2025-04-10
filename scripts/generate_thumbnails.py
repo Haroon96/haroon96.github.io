@@ -1,7 +1,7 @@
 import os
 from glob import glob
 from itertools import chain
-from PIL import Image
+from PIL import Image, ImageOps
 
 def generate_thumbnails():
     extensions = ['jpeg', 'jpg', 'png']
@@ -22,6 +22,7 @@ def generate_thumbnails():
 
         # write thumbnail
         img = Image.open(photo)
+        img = ImageOps.exif_transpose(img)
         
         # crop to square ratio
         if img.width > img.height:

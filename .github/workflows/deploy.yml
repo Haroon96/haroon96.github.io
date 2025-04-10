@@ -25,7 +25,7 @@ jobs:
       - name: Run Python
         run: | 
           pip install pillow
-          python scripts/generate_ids.py
+          python scripts/generate_content_ids.py
           python scripts/generate_thumbnails.py
 
       - name: Build project
