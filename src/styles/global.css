@@ -44,6 +44,10 @@ h1.publication-title:hover strong {
 }
 
 
+h2.external-links {
+    font-size: 0.95rem;
+}
+
 h2.external-links a {
     font-family: var(--font-family-mono);
 }
