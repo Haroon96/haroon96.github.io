@@ -7,7 +7,7 @@
       "Anshuman Chhabra"
     ],
     "year": 2025,
-    "venue": "arXiv pre-print",
+    "venue": "Asia-Pacific Chapter of the Association for Computational Linguistics (**AACL**)",
     "urls": [
       {
         "name": "pre-print",
@@ -29,8 +29,8 @@
     "venue": "Association for Computational Linguistics (**ACL**)",
     "urls": [
       {
-        "name": "pre-print",
-        "url": "https://arxiv.org/pdf/2501.13977"
+        "name": "paper",
+        "url": "https://aclanthology.org/2025.acl-long.44.pdf"
       }
     ],
     "id": 5
