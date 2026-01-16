@@ -1,1 +1,1 @@
-I'm a PhD candidate in Computer Science at the **University of California, Davis** advised by Professor [Magdalena Wojcieszak](https://communication.ucdavis.edu/people/magdalena-wojcieszak). My research interests involve the privacy, societal, and safety implications of online algorithmic systems.
+I'm a PhD graduate in Computer Science from the **University of California, Davis**. My research interests involve the privacy, societal, and safety implications of online algorithmic systems.
