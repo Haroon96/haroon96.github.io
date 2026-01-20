@@ -13,8 +13,7 @@
         "name": "pre-print",
         "url": "https://arxiv.org/pdf/2503.20797"
       }
-    ],
-    "id": 6
+    ]
   },
   {
     "title": "Re-ranking Using Large Language Models for Mitigating Exposure to Harmful Content on Social Media Platforms",
@@ -32,8 +31,7 @@
         "name": "paper",
         "url": "https://aclanthology.org/2025.acl-long.44.pdf"
       }
-    ],
-    "id": 5
+    ]
   },
   {
     "title": "Nudging the Recommendation Algorithm Increases News Consumption and Diversity on YouTube",
@@ -54,8 +52,7 @@
         "name": "website",
         "url": "https://ercexpo.github.io/ResearchTube/"
       }
-    ],
-    "id": 4
+    ]
   },
   {
     "title": "Auditing YouTube's Recommendation System for Ideologically Congenial, Extreme, and Problematic Recommendations",
@@ -78,8 +75,7 @@
         "name": "website",
         "url": "https://youtubeaudit.com"
       }
-    ],
-    "id": 3
+    ]
   },
   {
     "title": "HARPO: Learning to Subvert Online Behavioral Advertising",
@@ -100,8 +96,7 @@
         "name": "code",
         "url": "https://github.com/bitzj2015/Harpo-Artifacts"
       }
-    ],
-    "id": 2
+    ]
   },
   {
     "title": "Avengers Ensemble! Improving Transferability of Authorship Obfuscation",
@@ -122,7 +117,6 @@
         "name": "code",
         "url": "https://github.com/Haroon96/Avengers-Ensemble"
       }
-    ],
-    "id": 1
+    ]
   }
 ]
