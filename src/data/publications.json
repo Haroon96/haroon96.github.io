@@ -10,8 +10,8 @@
     "venue": "International Joint Conference on Natural Language Processing & Asia-Pacific Chapter of the Association for Computational Linguistics (**IJCNLP**-**AACL**)",
     "urls": [
       {
-        "name": "pre-print",
-        "url": "https://arxiv.org/pdf/2503.20797"
+        "name": "paper",
+        "url": "https://aclanthology.org/2025.findings-ijcnlp.13.pdf"
       }
     ]
   },
