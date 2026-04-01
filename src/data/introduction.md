@@ -1,1 +1,1 @@
-I'm a PhD graduate in Computer Science from the **University of California, Davis**. My research interests involve the privacy, societal, and safety implications of online algorithmic systems.
+I'm a Research Scientist at **Meta**. Previously, I completed my Ph.D. in Computer Science from the **University of California, Davis** where I researched the privacy, societal, and safety implications of online algorithmic systems.
